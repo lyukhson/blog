@@ -6,10 +6,10 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16px !default;
-$doc-font-size-medium: $doc-font-size * 1.125 !default;
-$doc-font-size-large: $doc-font-size * 1.25 !default;
-$doc-font-size-x-large: $doc-font-size * 1.375 !default;
+$doc-font-size: 14px !default; //default: 16px
+$doc-font-size-medium: $doc-font-size * 1.15 !default; //default: 1.125
+$doc-font-size-large: $doc-font-size * 1.15 !default; // default: 1.25
+$doc-font-size-x-large: $doc-font-size * 1.15 !default; //default: 1.375
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
@@ -186,16 +186,16 @@ $small: 600px !default;
 $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
-$x-large: 1280px !default;
+$x-large: 1500px !default; // default 1280px
 $max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 150px !default; //default 200px
+$right-sidebar-width: 250px !default; // default 300px
+$right-sidebar-width-wide: 350px !default; // default 400px
 
 /*
    Other
