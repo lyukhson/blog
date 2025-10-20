@@ -9,3 +9,72 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* === Footnote 전용 색상 오버라이드 === */
+
+/* 본문 안의 각주 표식 색 */
+.page__content a.footnote,
+.page__content sup .footnote {
+  color: #074CA1;            /* 원하는 색 */
+  text-decoration-color: currentColor;
+}
+
+/* 하단 각주 목록의 링크(링크, 역링크) 색 */
+.page__content .footnotes a,
+.page__content a.reversefootnote {
+  color: #074CA1;            /* 동일 색 또는 다른 색 */
+  text-decoration-color: currentColor;
+}
+
+.page__content .footnotes {
+    color: #000;
+}
+
+
+/* 호버/포커스 시 */
+.page__content .footnotes a:hover,
+.page__content a.footnote:hover,
+.page__content a.reversefootnote:hover,
+.page__content .footnotes a:focus,
+.page__content a.footnote:focus,
+.page__content a.reversefootnote:focus {
+  color: #c2185b;            /* 호버 색상 */
+  text-decoration: underline;
+}
+
+
+
+/* 제목 줄간격/여백 살짝 압축 */
+.page__title {
+  line-height: 1.25;       /* 기본보다 약간 타이트 */
+  margin-bottom: 0.80rem;   /* 제목과 메타 사이 여백 */
+}
+
+.page__meta {
+  font-size: 0.8rem !important;
+  line-height: 1.4 !important;
+  margin: .75rem 0 !important;
+}
+
+.page__taxonomy {
+  font-size: 0.8rem !important;
+  line-height: 1.4 !important;
+  margin: .25rem 0 !important;
+}
+
+.page__date {
+  font-size: 0.8rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 3.60rem 0 !important;
+}
+
+
+/*copyURL 버튼 스타일*/
+.btn--copyUrl {
+  background-color: #074CA1;
+  color: #fff
+}
+.btn--copyUrl:hover {
+  background-color: mix(#000, #074CA1, 50%);
+  color: #fff
+}

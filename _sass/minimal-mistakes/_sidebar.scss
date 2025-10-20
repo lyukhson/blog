@@ -19,7 +19,7 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1; //default: 0.75
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -134,12 +134,12 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 110px; //default 110px
+    border-radius: 50%; //deafult 50%
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 0px;
+      border: 0px solid $border-color;
     }
   }
 }

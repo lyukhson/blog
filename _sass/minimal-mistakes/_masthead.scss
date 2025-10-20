@@ -49,13 +49,16 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  // z-index: 20;
+  font-size: 1.25rem; //추가
+  z-index: 20;
 }
 
+/*
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
-}
+} 
+*/
 
 .masthead__menu {
   float: inline-start;
@@ -83,6 +86,8 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: 1.05rem; // 추가
+  //font-weight: bold; //추가
 
   &--lg {
     padding-inline-end: 2em;
