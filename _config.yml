@@ -207,6 +207,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+math_engine: katex
 
 
 # Markdown Processing
