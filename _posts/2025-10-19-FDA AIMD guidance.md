@@ -2,11 +2,11 @@
 title:  "[FDA] Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations: Draft Guidance (번역 포함)"
 last_modified_at: 2025-10-20 23:53:20 ## ctrl+shift=I
 categories: 
-  - Regulatory
+  - guidance
 tags:
-  - FDA Guidance
-  - Regulatory
-  - Artificial Intelligence
+  - guidance
+  - regulatory
+  - artificial Intelligence
   - AIMD
 toc: true
 toc_sticky: true
