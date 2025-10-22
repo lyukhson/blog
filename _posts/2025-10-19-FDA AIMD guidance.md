@@ -41,7 +41,7 @@ In general, FDA’s guidance documents do not establish legally enforceable resp
 [^2]: See FDA's website on [Transparency for Machine Learning-Enabled Medical Devices: Guiding Principles](https://www.fda.gov/medical-devices/software-medical-device-samd/transparency-machine-learning-enabled-medical-devices-guiding-principles). 머신러닝 기반 의료기기의 투명성 지침 원칙에 관한 FDA 웹사이트를 참조하십시오.
 [^3]: See FDA's website on [Artificial Intelligence and Machine Learning (AI/ML) Software as a Medical Device Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device), the Executive Summary for the "[Patient Engagement Advisory Committee Meeting on Artificial Intelligence (AI) and Machine Learning (ML) in Medical Devices](https://www.fda.gov/media/151482/download)," and the website on the [Virtual Public Workshop - Transparency of Artificial Intelligence/Machine Learning-enabled Medical Devices](https://public4.pagefreezer.com/browse/FDA/28-12-2023T13:10/https:/www.fda.gov/medical-devices/workshops-conferences-medical-devices/virtual-public-workshop-transparency-artificial-intelligencemachine-learning-enabled-medical-devices). FDA의 의료기기로서의 인공지능 및 머신러닝(AI/ML) 소프트웨어 실행 계획, "의료기기의 인공지능(AI) 및 머신러닝(ML)에 관한 환자 참여 자문위원회 회의" 요약본, 그리고 인공지능/머신러닝 기반 의료기기의 투명성에 관한 가상 공개 워크숍 웹사이트를 참조하십시오.
 
-**I. 서론**
+# I. 서론
 
 FDA는 인공지능(AI) 기반 기기를 포함한 의료기기의 감독에 있어 총체적 제품 수명주기(TPLC) 접근법을 오랫동안 장려해 왔으며, 이러한 접근법을 위한 지침서 및 자료 개발에 전념해 왔습니다. 최근의 노력 사례로는 안전하고 효과적이며 고품질의 기계학습 모델을 촉진하기 위한 우수 기계학습 실무(GMLP)[^1] 및 기계학습 기반 기기의 투명성에 대한 지도 원칙 개발[^2], 그리고 사용자를 위한 기기 투명성 논의[^3]를 포함한 AI 기반 기기에 대한 환자 중심 접근법 촉진을 위한 공개 워크숍 등이 있습니다. 본 지침서는 AI 기반 기기에 대한 TPLC 접근법과 일관된 수명주기 관리 및 시판 신청 권고사항을 제공함으로써 이러한 노력을 지속하고자 합니다.
 
@@ -81,7 +81,7 @@ Early engagement with FDA can help guide product development and submission prep
 [^12]: For other guidances with digital health content, please see FDA's website on [Guidances with Digital Health Content](https://www.fda.gov/medical-devices/digital-health-center-excellence/guidances-digital-health-content). For all other guidances, please see FDA's website on [Guidance Documents (Medical Devices and Radiation-Emitting Products](https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/guidance-documents-medical-devices-and-radiation-emitting-products). 디지털 헬스 내용이 포함된 기타 지침은 FDA의 디지털 헬스 내용이 포함된 지침(Guidances with Digital Health Content) 웹사이트를 참조하십시오. 기타 모든 지침은 FDA의 지침 문서(의료기기 및 방사선 방출 제품)(Guidance Documents (Medical Devices and Radiation-Emitting Products)) 웹사이트를 참조하십시오.
 [^13]: See FDA's guidance titled, "[Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program)" (hereafter referred to as the "Q-Submission Program"). FDA의 "의료기기 제출을 위한 피드백 및 회의 요청: Q-제출 프로그램(Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program)" 지침을 참조하십시오(이하 "Q-제출 프로그램"이라 함).
 
-**II. 적용 범위**
+# II. 적용 범위
 
 본 지침서의 목적상, FDA는 기기의 정의를 충족하는 소프트웨어 기능을 "기기 소프트웨어 기능"이라고 지칭합니다. "기기 소프트웨어 기능"은 연방 식품, 의약품 및 화장품법(FD&C Act) 제201조(h)항[^4]의 기기 정의를 충족하는 소프트웨어 기능입니다. 다른 FDA 지침서에서 논의된 바와 같이, "기능"이라는 용어는 제품의 명확한 목적을 의미하며, 이는 제품의 의도된 용도 또는 의도된 용도의 하위 집합이 될 수 있습니다[^5].
 
@@ -110,7 +110,7 @@ Finally, this guidance includes recommendations that address the performance of 
 
 [^14]: This guidance is not intended to provide recommendations on reporting to FDA when a device has or may have caused or contributed to a death or serious injury as required by section 519 of the FD&C Act, the Medical Device Reporting (MDR) Regulation in 21 CFR Part 803, or the Medical Device Reports of Corrections and Removals Regulation in 21 CFR Part 806. For an explanation of the current reporting and recordkeeping requirements applicable to manufacturers of medical devices, please refer to FDA's guidance titled "[Medical Device Reporting for Manufacturers](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/medical-device-reporting-manufacturers)." 본 지침은 연방 식품·의약품·화장품법(FD&C Act) 제519조, 21 CFR Part 803의 의료기기 보고(MDR) 규정, 또는 21 CFR Part 806의 의료기기 시정 및 회수 보고 규정에서 요구하는 바와 같이 기기가 사망 또는 중상을 야기했거나 야기했을 가능성이 있는 경우 FDA에 보고하는 것에 대한 권고사항을 제공하기 위한 것이 아닙니다. 의료기기 제조업체에 적용되는 현행 보고 및 기록 유지 요건에 대한 설명은 FDA의 "제조업체를 위한 의료기기 보고(Medical Device Reporting for Manufacturers)" 지침을 참조하십시오.
 
-**III. TPLC 접근법: 일반 원칙**
+# III. TPLC 접근법: 일반 원칙
 
 본 지침서는 AI 기반 기기의 관리에 있어 TPLC 접근법의 중요성을 인정합니다. TPLC 전반에 걸친 위험 관리에 대한 포괄적인 접근법을 반영하는 시판 신청서에 포함되어야 하는 문서 및 정보에 대한 권고사항 외에도, 본 지침서에서 제공되는 자료는 AI 기반 기기의 기기 개발 및 수명주기 관리를 지원하기 위한 것이며, 이는 이러한 기기의 안전성 및 유효성을 뒷받침하는 데 도움이 될 것입니다. 본 지침서는 AI 기반 기기의 시판 신청을 뒷받침하기 위한 정보 및 문서에 대한 구체적인 권고사항과 더불어 성능 관리를 포함한 AI 기반 기기의 설계, 개발, 배포 및 유지보수에 대한 권고사항을 제공합니다[^14].
 
@@ -137,7 +137,7 @@ This guidance generally describes information that would be generated and docume
 [^15]: See International Medical Device Regulators Forum Technical Document N67 titled "[Machine Learning-enabled Medical Devices: Key Terms and Definitions](https://www.imdrf.org/documents/machine-learning-enabled-medical-devices-key-terms-and-definitions)." 국제의료기기규제당국포럼(International Medical Device Regulators Forum) 기술문서 N67 "머신러닝 기반 의료기기: 주요 용어 및 정의(Machine Learning-enabled Medical Devices: Key Terms and Definitions)"를 참조하십시오.
 [^16]: On February 2, 2024, FDA issued a final rule amending the device Quality System Regulation (QSR), 21 CFR Part 820, to align more closely with international consensus standards for devices (89 FR 7496). This final rule will take effect on February 2, 2026. Once in effect, this rule will withdraw the majority of the current requirements in Part 820 and instead incorporate by reference the 2016 edition of the International Organization for Standardization (ISO) 13485, Medical devices – Quality management systems – Requirements for regulatory purposes, in Part 820. As stated in the final rule, the requirements in ISO 13485 are, when taken in totality, substantially similar to the requirements of the current Part 820, providing a similar level of assurance in a firm's quality management system and ability to consistently manufacture devices that are safe and effective and otherwise in compliance with the FD&C Act. When the final rule takes effect, FDA will also update the references to provisions in 21 CFR Part 820 in this guidance to be consistent with that rule. 2024년 2월 2일, FDA는 기기 품질시스템 규정(QSR) 21 CFR Part 820을 개정하여 국제 의료기기 합의 표준과 더 긴밀하게 정렬하기 위한 최종 규칙을 발표했습니다(89 FR 7496). 이 최종 규칙은 2026년 2월 2일에 발효됩니다. 발효 시, 이 규칙은 Part 820의 현행 요건 대부분을 철회하고 대신 국제표준화기구(ISO) 13485(2016년판), 의료기기 – 품질경영시스템 – 규제 목적을 위한 요건(Medical devices – Quality management systems – Requirements for regulatory purposes)을 Part 820에 참조 편입합니다. 최종 규칙에 명시된 바와 같이, ISO 13485의 요건은 전체적으로 볼 때 현행 Part 820의 요건과 실질적으로 유사하며, 기업의 품질경영시스템과 안전하고 효과적이며 연방 식품·의약품·화장품법을 준수하는 기기를 일관되게 제조할 수 있는 능력에 대해 유사한 수준의 보증을 제공합니다. 최종 규칙이 발효되면 FDA는 본 지침의 21 CFR Part 820 조항 참조를 해당 규칙과 일관되게 업데이트할 것입니다.
 
-**IV. 본 지침서 사용 방법: AI 기반 기기 시판 신청 내용 권고사항 개요**
+# IV. 본 지침서 사용 방법: AI 기반 기기 시판 신청 내용 권고사항 개요
 
 본 지침서는 AI-DSF를 포함하는 기기에 대한 FDA의 검토를 뒷받침하기 위해 시판 신청서에 포함되어야 하는 문서 및 정보에 대한 권고사항을 제공합니다.
 
@@ -166,7 +166,7 @@ Similarly, as part of the control of nonconforming product, manufacturers must e
 [^19]: 21 CFR 820.20(c). 21 CFR 820.20(c).
 
 
-**A. 품질 시스템 문서**
+## A. 품질 시스템 문서
 
 본 지침서의 섹션 V부터 XIII까지의 권고사항을 고려할 때, "스폰서가 신청서에 포함해야 할 내용"에 따라 시판 신청서에 포함되어야 하는 문서 및 정보가 품질 시스템 문서에도 존재할 수 있는지 고려하는 것이 도움이 될 수 있습니다. 특정 AI 기반 기기의 시판 신청서에서 실질적 동등성 또는 안전성 및 유효성에 대한 합리적 보증을 입증하는 일부로 사용될 수 있는 문서의 한 출처는 품질 시스템(QS) 규정[^17]의 지속적인 요건과 관련된 문서입니다. 본 지침서는 일반적으로 의료기기의 QS 규정 준수와 관련될 수 있는 일부 문서가 스폰서 또는 제조업체가 AI 기반 기기와 관련된 위험을 구체적으로 어떻게 다루고 있는지 입증하기 위해 시판 전에도 제공될 수 있는 방법을 설명합니다.
 
@@ -217,7 +217,7 @@ Finally, if a device contains multiple connected applications with separate inte
 
 *Where sponsors should provide it in a submission:* The AI-enabled device description information should be included in the **Device Description** section of the marketing submission.
 
-**V. 기기 설명**
+# V. 기기 설명
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* 다음 섹션은 FDA가 AI 기반 기기의 일반적인 특성을 이해하는 데 도움이 되도록 스폰서가 시판 신청서의 *기기 설명* 섹션에 제공해야 하는 정보를 설명합니다. 이러한 권고사항은 해당되는 경우 기기별 권고사항 및 *시판 전 소프트웨어 지침서*에 제공된 권고사항을 보완합니다.
 
@@ -275,7 +275,7 @@ Note that inclusion of a unique device identifier (UDI) in the labeling is requi
 [^24]: See 21 CFR 801.20. 21 CFR 801.20을 참조하십시오.
 [^25]: See 21 CFR 830.50. 21 CFR 830.50을 참조하십시오.
 
-**VI. 사용자 인터페이스 및 라벨링**
+# VI. 사용자 인터페이스 및 라벨링
 
 사용자 인터페이스는 사용자와 기기 간의 모든 상호작용 지점을 포함하며, 사용자가 상호작용하는 모든 요소(예: 사용자가 보고, 듣고, 만지는 부분)를 포함합니다. 또한 해당되는 경우 포장, 라벨링[^20], 교육 자료 및 모든 물리적 제어 및 디스플레이 요소(경보 및 각 기기 구성 요소와 전체적인 사용자 인터페이스 시스템의 작동 논리 포함)와 같이 기기에 의해 전달되는 모든 정보 출처를 포함합니다. 사용자 인터페이스는 설정(예: 포장 풀기, 교정), 작동 및 유지보수(예: 청소, 배터리 교체, 수리)를 포함하여 설치 및 사용의 여러 단계에 걸쳐 사용될 수 있습니다.[^21] 사용 과정 전반에 걸쳐 중요한 정보를 제공하도록 사용자 인터페이스를 설계하는 것은 기기가 정의된 사용자 요구사항을 충족하고 안전성 및 유효성을 뒷받침하도록 보장하는 데 도움이 됩니다.[^22] 인터페이스 전반에 걸쳐 정보를 통합하면 사용자가 의도된 목적에 부합하는 안전하고 효과적인 사용을 가능하게 하기 위해 적절한 시간과 위치에 올바른 정보를 받을 수 있습니다. 소프트웨어 또는 모바일 애플리케이션의 경우, 제조업체는 전통적인 라벨링에 더하여 화면 메시지 또는 다른 기기로 전송되는 경고와 같은 인터페이스 요소를 사용하여 적절한 시간에 기기 위험을 전달할 수 있습니다.
 
@@ -306,7 +306,7 @@ Although the user interface includes printed labeling (e.g., packaging, user man
 
 *Where sponsors should provide it in a submission:* The user information about the user interface should be included in the **“Software Description”** section within the Software Documentation portion of the marketing submission.
 
-**A. 사용자 인터페이스**
+## A. 사용자 인터페이스
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* FDA가 기기의 사용 방식을 완전히 평가하기 위해서는 기기의 사용자 인터페이스를 이해하는 것이 중요합니다. 사용자 인터페이스는 기기가 무엇을 하도록 의도되었는지 그리고 사용자가 어떻게 상호작용할 것으로 예상되는지에 대한 필수 정보를 전달합니다. 사용자 인터페이스를 확인함으로써 FDA는 기기가 어떻게 작동될 것인지 그리고 임상 워크플로에 어떻게 통합되는지를 이해할 수 있으며, 이는 기기의 안전성 및 유효성에 대한 기관의 평가를 뒷받침합니다.
 
@@ -400,6 +400,13 @@ For AI-enabled devices intended for use by patients or caregivers, manufacturers
 
 *Where sponsors should provide it in a submission:* Information regarding the AI-enabled device labeling should be included in the “Labeling” section of the marketing submission.
 
+> ADDITIONAL RESOURCES:
+* Appendix B (Transparency Design Considerations) outlines a potential approach to understanding a device’s indications for use and a model card, which may aid in the development of the user interface.
+* While model cards are not required for presenting information about the labeling or user interface, they may be a helpful tool to organize information. In general, model cards can be adapted to the specific needs and context of each AI-enabled device.
+  * Appendix E (Example Model Card) includes an example of a basic model card format intended for users and healthcare providers that conveys information including a summary of the model’s intended use and intended users, and evidence supporting safety and effectiveness.
+  * Appendix F (Example 510(k) Submission Summary with Model Card) includes an example of a completed basic model card.
+* FDA’s guidance titled “Device Labeling Guidance #G91-1 (Blue Book Memo)” includes suggestions regarding what information should be included within device labeling.
+
 [^26]: See e.g., 21 CFR 807.87(e) or 21 CFR 814.20(b)(10). 예를 들어, 21 CFR 807.87(e) 또는 21 CFR 814.20(b)(10)을 참조하십시오.
 [^27]: Generally, if the device is an in vitro diagnostic device, the labeling must also satisfy the requirements of 21 CFR 809.10. 일반적으로 기기가 체외진단기기인 경우, 라벨링은 21 CFR 809.10의 요건도 충족해야 합니다.
 [^28]: For more information, please see FDA guidance titled "[Design Considerations and Premarket Submission Recommendations for Interoperable Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/design-considerations-and-pre-market-submission-recommendations-interoperable-medical-devices)." 자세한 정보는 FDA 지침 "상호운용 가능한 의료기기를 위한 설계 고려사항 및 시판 전 제출 권고사항(Design Considerations and Premarket Submission Recommendations for Interoperable Medical Devices)"을 참조하십시오.
@@ -407,7 +414,7 @@ For AI-enabled devices intended for use by patients or caregivers, manufacturers
 [^30]: For more information regarding the reporting of age, race, and ethnicity related data, please see FDA guidance titled "[Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-and-reporting-age-race-and-ethnicity-specific-data-medical-device-clinical-studies)." 연령, 인종, 민족 관련 데이터의 보고에 대한 자세한 정보는 FDA 지침 "의료기기 임상시험에서 연령-, 인종-, 민족-특정 데이터의 평가 및 보고(Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies)"를 참조하십시오.
 [^31]: For more information, please see FDA guidance titled, "[Design Considerations and Pre-market Submission Recommendations for Interoperable Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/design-considerations-and-pre-market-submission-recommendations-interoperable-medical-devices)." 자세한 정보는 FDA 지침 "상호운용 가능한 의료기기를 위한 설계 고려사항 및 시판 전 제출 권고사항(Design Considerations and Pre-market Submission Recommendations for Interoperable Medical Devices)"을 참조하십시오.
 
-**B. 라벨링**
+## B. 라벨링
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* 시판 신청서는 제안된 라벨링이 신청 유형에 대한 적용 가능한 규제 요건을 충족한다는 것을 FDA가 판단할 수 있도록 충분히 상세한 라벨링 정보를 포함해야 합니다.[^26] 기기 라벨링은 21 CFR Part 801을 포함하되 이에 국한되지 않는 모든 관련 FDA 라벨링 규정을 준수해야 합니다.[^27] 본 지침서의 이 섹션은 이러한 요건의 준수를 보장하고 라벨링이 기기의 안전하고 효과적인 사용에 필요한 정보를 적절하게 전달하는지에 대한 FDA의 평가를 뒷받침하기 위해 AI 기반 기기에 특정한 라벨링 고려사항을 제공합니다.
 
@@ -484,13 +491,6 @@ For AI-enabled devices intended for use by patients or caregivers, manufacturers
 
 *스폰서가 신청서에서 제공해야 할 위치:* AI 기반 기기 라벨링에 관한 정보는 시판 신청서의 "라벨링" 섹션에 포함되어야 합니다.
 
-> ADDITIONAL RESOURCES:
-* Appendix B (Transparency Design Considerations) outlines a potential approach to understanding a device’s indications for use and a model card, which may aid in the development of the user interface.
-* While model cards are not required for presenting information about the labeling or user interface, they may be a helpful tool to organize information. In general, model cards can be adapted to the specific needs and context of each AI-enabled device.
-  * Appendix E (Example Model Card) includes an example of a basic model card format intended for users and healthcare providers that conveys information including a summary of the model’s intended use and intended users, and evidence supporting safety and effectiveness.
-  * Appendix F (Example 510(k) Submission Summary with Model Card) includes an example of a completed basic model card.
-* FDA’s guidance titled “Device Labeling Guidance #G91-1 (Blue Book Memo)” includes suggestions regarding what information should be included within device labeling.
-
 > 추가 자료:
 * 부록 B(투명성 설계 고려사항)는 기기의 사용 적응증 및 모델 카드를 이해하기 위한 잠재적 접근법을 개괄하며, 이는 사용자 인터페이스 개발에 도움이 될 수 있습니다.
 * 모델 카드는 라벨링 또는 사용자 인터페이스에 대한 정보를 제시하는 데 필수는 아니지만, 정보를 구성하는 데 유용한 도구가 될 수 있습니다. 일반적으로 모델 카드는 각 AI 기반 기기의 특정 요구사항 및 맥락에 맞게 조정될 수 있습니다.
@@ -509,7 +509,23 @@ When conducting a risk analysis, the Medical Devices; Current Good Manufacturing
 **Risks Related to Information in AI-Enabled Devices**
 One aspect of risk management that can be particularly important for AI-enabled devices is the management of risks that are related to understanding information that is necessary to use or interpret the device, including risks related to lack of information or unclear information. Misunderstood, misused, or unavailable information can impact the safe and effective use of a device. For example, for devices that utilize complex algorithms, including AI-enabled devices, the performance in different disease subtypes may not be apparent to users, or the logic underlying the output information may not be easily understandable, which can negatively affect user understanding and use of the device. Lack of, or unclear information can also make it difficult for different users to understand whether a device is not performing as expected, or how to correctly follow instructions. FDA recommends that consideration of risks related to understanding information should be one part of a comprehensive approach to risk management for an AI-enabled device.
 
-**VII. 위험 평가**
+> ADDITIONAL RESOURCES:
+* ANSI/AAMI HE75 *Human factors engineering - Design of medical devices* includes recommendations on using information in labeling to help control risks.
+
+*What sponsors should include in a submission:* Sponsors should provide a “Risk Management File” that includes a risk management plan, including a risk assessment. In addition to other considerations, the risk assessment should consider user tasks and knowledge tasks that occur throughout the full continuum of use of the device, including, for example, the process of installing the device, maintaining performance over time, and any risks associated with user interpretation of the results of a device, as appropriate.
+
+In addition to the considerations provided in FDA-recognized voluntary consensus standards[^32] and applicable guidances[^33], FDA recommends that sponsors consider the risks related to understanding information during the risk assessment. As with all identified risks, sponsors should provide an explanation of any risk controls, including elements of the user interface, such as labeling, that address the identified risks. Information that may be helpful to discuss such risks and their controls, as applicable, is provided in Appendix D (Usability Evaluation Considerations).
+
+*Where sponsors should provide it in a submission:* Much of the information on risk assessment for an AI-enabled device should be included in the “Risk Management File” in the Software Documentation section of the marketing submission, as recommended by the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
+
+> ADDITIONAL RESOURCES:
+* Appendix B (Transparency Design Considerations) outlines recommendations for a user-centered design approach to developing a device, which may aid in the identification of risks and development of risk controls.
+* Appendix D (Usability Evaluation Considerations) provides recommendations on usability testing, which may help sponsors evaluate the efficacy of proposed controls for information-related risks.
+
+[^32]: For more information, see the [FDA Recognized Consensus Standards Database](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfStandards/search.cfm). 자세한 정보는 FDA 인정 합의 표준 데이터베이스(FDA Recognized Consensus Standards Database)를 참조하십시오.
+[^33]: For more information regarding use of consensus standards in regulatory submissions, refer to the FDA guidances titled "[Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/appropriate-use-voluntary-consensus-standards-premarket-submissions-medical-devices)" and "[Standards Development and the Use of Standards in Regulatory Submissions Reviewed in the Center for Biologics Evaluation and Research](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/standards-development-and-use-standards-regulatory-submissions-reviewed-center-biologics-evaluation)." 규제 제출물에서 합의 표준의 사용에 관한 자세한 정보는 FDA 지침 "의료기기 시판 전 제출물에서 자발적 합의 표준의 적절한 사용(Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices)" 및 "생물의약품평가연구센터에서 심사하는 규제 제출물에서 표준 개발 및 표준의 사용(Standards Development and the Use of Standards in Regulatory Submissions Reviewed in the Center for Biologics Evaluation and Research)"을 참조하십시오.
+
+# VII. 위험 평가
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* 포괄적인 위험 평가는 기기가 안전하고 효과적임을 보장하는 데 도움이 됩니다. 시판 신청서에 포함될 때, 포괄적인 위험 평가는 FDA가 적절한 위험이 식별되었는지 그리고 그것이 어떻게 통제되는지를 이해하는 데 도움이 됩니다. 시판 전 소프트웨어 지침서의 섹션 VI.C에서, FDA는 기기 소프트웨어 기능을 포함하는 시판 신청서가 위험 관리 계획, 위험 평가 및 위험 관리 보고서로 구성된 위험 관리 파일을 포함할 것을 권장합니다. 이와 일치하게, AI 기반 기기의 시판 신청서는 시판 전 소프트웨어 지침서의 권고사항 및 본 지침서의 권고사항과 기타 적용 가능한 지침서를 고려한 위험 관리 파일을 포함해야 합니다.
 
@@ -523,30 +539,14 @@ One aspect of risk management that can be particularly important for AI-enabled 
 
 AI 기반 기기에 특히 중요할 수 있는 위험 관리의 한 측면은 정보 부족 또는 불명확한 정보와 관련된 위험을 포함하여, 기기를 사용하거나 해석하는 데 필요한 정보의 이해와 관련된 위험의 관리입니다. 잘못 이해되거나, 잘못 사용되거나, 이용할 수 없는 정보는 기기의 안전하고 효과적인 사용에 영향을 미칠 수 있습니다. 예를 들어, AI 기반 기기를 포함하여 복잡한 알고리즘을 활용하는 기기의 경우, 다양한 질병 아형에서의 성능이 사용자에게 명확하지 않을 수 있거나, 출력 정보의 기반이 되는 논리가 쉽게 이해되지 않을 수 있으며, 이는 기기에 대한 사용자의 이해 및 사용에 부정적인 영향을 미칠 수 있습니다. 정보의 부족 또는 불명확한 정보는 또한 다양한 사용자가 기기가 예상대로 작동하지 않는지 여부를 이해하거나 지침을 올바르게 따르는 것을 어렵게 만들 수 있습니다. FDA는 정보의 이해와 관련된 위험에 대한 고려가 AI 기반 기기에 대한 포괄적인 위험 관리 접근법의 일부가 되어야 한다고 권장합니다.
 
-> ADDITIONAL RESOURCES:
-* ANSI/AAMI HE75 *Human factors engineering - Design of medical devices* includes recommendations on using information in labeling to help control risks.
-
 > 추가 자료:
 * ANSI/AAMI HE75 *인적 요인 공학 - 의료기기의 설계*는 위험을 통제하는 데 도움이 되도록 라벨링에 정보를 사용하는 것에 대한 권고사항을 포함합니다.
-
-*What sponsors should include in a submission:* Sponsors should provide a “Risk Management File” that includes a risk management plan, including a risk assessment. In addition to other considerations, the risk assessment should consider user tasks and knowledge tasks that occur throughout the full continuum of use of the device, including, for example, the process of installing the device, maintaining performance over time, and any risks associated with user interpretation of the results of a device, as appropriate.
-
-In addition to the considerations provided in FDA-recognized voluntary consensus standards[^32] and applicable guidances[^33], FDA recommends that sponsors consider the risks related to understanding information during the risk assessment. As with all identified risks, sponsors should provide an explanation of any risk controls, including elements of the user interface, such as labeling, that address the identified risks. Information that may be helpful to discuss such risks and their controls, as applicable, is provided in Appendix D (Usability Evaluation Considerations).
-
-*Where sponsors should provide it in a submission:* Much of the information on risk assessment for an AI-enabled device should be included in the “Risk Management File” in the Software Documentation section of the marketing submission, as recommended by the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
-
-[^32]: For more information, see the [FDA Recognized Consensus Standards Database](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfStandards/search.cfm). 자세한 정보는 FDA 인정 합의 표준 데이터베이스(FDA Recognized Consensus Standards Database)를 참조하십시오.
-[^33]: For more information regarding use of consensus standards in regulatory submissions, refer to the FDA guidances titled "[Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/appropriate-use-voluntary-consensus-standards-premarket-submissions-medical-devices)" and "[Standards Development and the Use of Standards in Regulatory Submissions Reviewed in the Center for Biologics Evaluation and Research](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/standards-development-and-use-standards-regulatory-submissions-reviewed-center-biologics-evaluation)." 규제 제출물에서 합의 표준의 사용에 관한 자세한 정보는 FDA 지침 "의료기기 시판 전 제출물에서 자발적 합의 표준의 적절한 사용(Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices)" 및 "생물의약품평가연구센터에서 심사하는 규제 제출물에서 표준 개발 및 표준의 사용(Standards Development and the Use of Standards in Regulatory Submissions Reviewed in the Center for Biologics Evaluation and Research)"을 참조하십시오.
 
 *스폰서가 신청서에 포함해야 할 내용:* 스폰서는 위험 평가를 포함한 위험 관리 계획을 포함하는 "위험 관리 파일"을 제공해야 합니다. 다른 고려사항 외에도, 위험 평가는 적절한 경우 기기 설치 과정, 시간 경과에 따른 성능 유지, 기기 결과에 대한 사용자 해석과 관련된 모든 위험을 포함하여 기기 사용의 전체 연속체 전반에 걸쳐 발생하는 사용자 작업 및 지식 작업을 고려해야 합니다.
 
 FDA 인정 자발적 합의 표준[^32] 및 적용 가능한 지침서[^33]에 제공된 고려사항 외에도, FDA는 스폰서가 위험 평가 중에 정보의 이해와 관련된 위험을 고려할 것을 권장합니다. 식별된 모든 위험과 마찬가지로, 스폰서는 식별된 위험을 다루는 라벨링과 같은 사용자 인터페이스의 요소를 포함한 모든 위험 통제에 대한 설명을 제공해야 합니다. 해당되는 경우 이러한 위험 및 그 통제를 논의하는 데 도움이 될 수 있는 정보는 부록 D(사용성 평가 고려사항)에 제공됩니다.
 
 *스폰서가 신청서에서 제공해야 할 위치:* AI 기반 기기의 위험 평가에 대한 정보의 대부분은 시판 전 소프트웨어 지침서에서 권장하는 바와 같이 시판 신청서의 소프트웨어 문서 섹션의 "위험 관리 파일"에 포함되어야 합니다.
-
-> ADDITIONAL RESOURCES:
-* Appendix B (Transparency Design Considerations) outlines recommendations for a user-centered design approach to developing a device, which may aid in the identification of risks and development of risk controls.
-* Appendix D (Usability Evaluation Considerations) provides recommendations on usability testing, which may help sponsors evaluate the efficacy of proposed controls for information-related risks.
 
 > 추가 자료:
 * 부록 B(투명성 설계 고려사항)는 위험 식별 및 위험 통제 개발에 도움이 될 수 있는 기기 개발을 위한 사용자 중심 설계 접근법에 대한 권고사항을 개괄합니다.
@@ -647,7 +647,22 @@ The data management information for data used in the performance validation (i.e
 [^45]: For more information on the use of OUS data, please see FDA guidance titled "[Acceptance of Clinical Data to Support Medical Device Applications and Submissions: Frequently Asked Questions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/acceptance-clinical-data-support-medical-device-applications-and-submissions-frequently-asked)." 미국 외 지역(OUS) 데이터의 사용에 관한 자세한 정보는 FDA 지침 "의료기기 신청 및 제출물 지원을 위한 임상 데이터의 수용: 자주 묻는 질문(Acceptance of Clinical Data to Support Medical Device Applications and Submissions: Frequently Asked Questions)"을 참조하십시오.
 [^46]: For more information on the Q-Submission program, please see FDA guidance titled "[Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program)." Q-제출 프로그램에 관한 자세한 정보는 FDA 지침 "의료기기 제출을 위한 피드백 및 회의 요청: Q-제출 프로그램(Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program)"을 참조하십시오.
 
-**VIII. 데이터 관리**
+> ADDITIONAL RESOURCES:
+In addition to the considerations in this guidance, to support the TPLC approach to development, FDA recommends that sponsors and investigators consider the unique characteristics of the AI-enabled device during the study design, conduct, and reporting phases for clinical investigations. Researchers should understand how Investigational Device Exemption (IDE), Protection of Human Subjects and Institutional Review Board regulations [^47], and Good Clinical Practice (GCP) regulations [^48] apply to their devices. Resources include consensus guidelines,[^49] as well as FDA guidances titled:
+* “[Significant Risk and Nonsignificant Risk Medical Device Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/significant-risk-and-nonsignificant-risk-medical-device-studies)”
+* “[Informed Consent Guidance for IRBs, Clinical Investigators, and Sponsors](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent)”
+* “[Acceptance of Clinical Data to Support Medical Device Applications and Submissions: Frequently Asked Questions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/acceptance-clinical-data-support-medical-device-applications-and-submissions-frequently-asked)”
+> 
+> For more information regarding age-, race-, and ethnicity-specific data, and sex-specific data please see the FDA guidances titled:
+* “[Collection of Race and Ethnicity Data in Clinical Trials](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/collection-race-and-ethnicity-data-clinical-trials)”
+* “[Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-and-reporting-age-race-and-ethnicity-specific-data-medical-device-clinical-studies)”
+* “[Evaluation of Sex-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-sex-specific-data-medical-device-clinical-studies-guidance-industry-and-food-and-drug)”
+
+[^47]: See 21 CFR Parts 50 and 56. 21 CFR Parts 50 및 56을 참조하십시오.
+[^48]: See FDA's website on [Regulations: Good Clinical Practice and Clinical Trials](https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/regulations-good-clinical-practice-and-clinical-trials). FDA의 규정: 우수 임상시험 실시기준 및 임상시험(Regulations: Good Clinical Practice and Clinical Trials) 웹사이트를 참조하십시오.
+[^49]: See Liu, Xiaoxuan et al "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension," Natural Medicine (2020) [https://doi.org/10.1038/s41591-020-1034-x](https://doi.org/10.1038/s41591-020-1034-x); Rivera, Samantha C. et al "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension," Lancet (2020) [https://doi.org/10.1016/S2589-7500(20)30219-3](https://doi.org/10.1016/S2589-7500(20)30219-3); Vasey, Baptiste et al Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI," BMJ (2022) [https://doi.org/10.1136/bmj-2022-070904](https://doi.org/10.1136/bmj-2022-070904). Liu, Xiaoxuan et al "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension," Natural Medicine (2020) https://doi.org/10.1038/s41591-020-1034-x; Rivera, Samantha C. et al "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension," Lancet (2020) https://doi.org/10.1016/S2589-7500(20)30219-3; Vasey, Baptiste et al "Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI," BMJ (2022) https://doi.org/10.1136/bmj-2022-070904를 참조하십시오.
+
+# VIII. 데이터 관리
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* AI 기반 기기의 경우, 모델은 작용 메커니즘의 일부입니다. 따라서 데이터 관리 관행(즉, 데이터가 어떻게 수집, 처리, 아노테이션, 저장, 통제 및 사용되었거나 될 것인지)과 AI 기반 기기의 개발 및 검증에 사용된 데이터의 특성화를 포함한 데이터 관리에 대한 명확한 설명은 FDA가 기기가 어떻게 개발되고 검증되었는지를 이해하는 데 중요합니다. 이러한 이해는 FDA가 AI 기반 기기의 안전성 및 유효성을 평가할 수 있도록 합니다.
 
@@ -729,21 +744,6 @@ AI 시스템의 성능 및 행동은 학습 및 튜닝에 사용되는 데이터
 
 성능 검증(즉, 임상 검증) 문서에 사용된 데이터에 대한 데이터 관리 정보는 시판 신청서의 "성능 시험" 섹션에 포함되어야 합니다. 모델 학습 및 검증에 사용된 데이터의 특성이 다른 경우, 스폰서는 성능 시험 문서 요소의 성능 검증 데이터 관리 섹션과 함께 차이점을 강조하고 정당화해야 합니다.
 
-> ADDITIONAL RESOURCES:
-In addition to the considerations in this guidance, to support the TPLC approach to development, FDA recommends that sponsors and investigators consider the unique characteristics of the AI-enabled device during the study design, conduct, and reporting phases for clinical investigations. Researchers should understand how Investigational Device Exemption (IDE), Protection of Human Subjects and Institutional Review Board regulations [^47], and Good Clinical Practice (GCP) regulations [^48] apply to their devices. Resources include consensus guidelines,[^49] as well as FDA guidances titled:
-* “[Significant Risk and Nonsignificant Risk Medical Device Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/significant-risk-and-nonsignificant-risk-medical-device-studies)”
-* “[Informed Consent Guidance for IRBs, Clinical Investigators, and Sponsors](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent)”
-* “[Acceptance of Clinical Data to Support Medical Device Applications and Submissions: Frequently Asked Questions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/acceptance-clinical-data-support-medical-device-applications-and-submissions-frequently-asked)”
-> 
-> For more information regarding age-, race-, and ethnicity-specific data, and sex-specific data please see the FDA guidances titled:
-* “[Collection of Race and Ethnicity Data in Clinical Trials](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/collection-race-and-ethnicity-data-clinical-trials)”
-* “[Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-and-reporting-age-race-and-ethnicity-specific-data-medical-device-clinical-studies)”
-* “[Evaluation of Sex-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-sex-specific-data-medical-device-clinical-studies-guidance-industry-and-food-and-drug)”
-
-[^47]: See 21 CFR Parts 50 and 56. 21 CFR Parts 50 및 56을 참조하십시오.
-[^48]: See FDA's website on [Regulations: Good Clinical Practice and Clinical Trials](https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/regulations-good-clinical-practice-and-clinical-trials). FDA의 규정: 우수 임상시험 실시기준 및 임상시험(Regulations: Good Clinical Practice and Clinical Trials) 웹사이트를 참조하십시오.
-[^49]: See Liu, Xiaoxuan et al "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension," Natural Medicine (2020) [https://doi.org/10.1038/s41591-020-1034-x](https://doi.org/10.1038/s41591-020-1034-x); Rivera, Samantha C. et al "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension," Lancet (2020) [https://doi.org/10.1016/S2589-7500(20)30219-3](https://doi.org/10.1016/S2589-7500(20)30219-3); Vasey, Baptiste et al Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI," BMJ (2022) [https://doi.org/10.1136/bmj-2022-070904](https://doi.org/10.1136/bmj-2022-070904). Liu, Xiaoxuan et al "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension," Natural Medicine (2020) https://doi.org/10.1038/s41591-020-1034-x; Rivera, Samantha C. et al "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension," Lancet (2020) https://doi.org/10.1016/S2589-7500(20)30219-3; Vasey, Baptiste et al "Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI," BMJ (2022) https://doi.org/10.1136/bmj-2022-070904를 참조하십시오.
-
 > 추가 자료:
 본 지침서의 고려사항 외에도, 개발에 대한 TPLC 접근법을 뒷받침하기 위해, FDA는 스폰서와 연구자가 임상 조사를 위한 연구 설계, 수행 및 보고 단계에서 AI 기반 기기의 고유한 특성을 고려할 것을 권장합니다. 연구자는 임상시험용 기기 면제(IDE), 인간 대상자 보호 및 기관심사위원회 규정[^47], 그리고 우수 임상 시험 관리 기준(GCP) 규정[^48]이 그들의 기기에 어떻게 적용되는지 이해해야 합니다. 자료에는 합의 지침[^49]과 다음 제목의 FDA 지침서가 포함됩니다:
 * "중대한 위험 및 비중대한 위험 의료기기 연구"
@@ -795,7 +795,10 @@ Model Development
 
 *Where sponsors should provide it in a submission:* Information on model development, including the model description and the method for model development, should be included as part of the “Software Description” in the Software Documentation section of the marketing submission, as described in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
 
-**IX. 모델 설명 및 개발**
+> ADDITIONAL RESOURCES:
+In situations where manufacturers wish to consider development of models that automatically or continuously update, FDA encourages manufacturers to use the [Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program) to discuss considerations related to these AI models early in the development process and review the FDA guidance titled “[Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial).”
+
+# IX. 모델 설명 및 개발
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* 편향성 및 제한사항을 포함한 모델(및 기기) 설계에 대한 정보는 FDA가 AI 기반 기기의 안전성 및 유효성을 평가하고 기기의 성능 시험 사양을 결정하는 능력을 뒷받침합니다.
 
@@ -835,9 +838,6 @@ Model Development
 
 *스폰서가 신청서에서 제공해야 할 위치:* 모델 설명 및 모델 개발 방법을 포함한 모델 개발에 대한 정보는 시판 전 소프트웨어 지침서에 설명된 대로 시판 신청서의 소프트웨어 문서 섹션의 "소프트웨어 설명"의 일부로 포함되어야 합니다.
 
-> ADDITIONAL RESOURCES:
-In situations where manufacturers wish to consider development of models that automatically or continuously update, FDA encourages manufacturers to use the [Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program) to discuss considerations related to these AI models early in the development process and review the FDA guidance titled “[Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial).”
-
 > 추가 자료:
 제조업체가 자동으로 또는 지속적으로 업데이트되는 모델의 개발을 고려하고자 하는 상황에서, FDA는 제조업체가 개발 프로세스 초기에 이러한 AI 모델과 관련된 고려사항을 논의하기 위해 Q-제출 프로그램을 사용하고 "인공지능 기반 기기 소프트웨어 기능에 대한 사전 결정 변경 관리 계획의 시판 신청 권고사항"이라는 제목의 FDA 지침서를 검토할 것을 권장합니다.
 
@@ -855,7 +855,7 @@ New unique device identifiers (UDIs) are required for devices that are required 
 
 [^50]: See 21 CFR 830.50. 21 CFR 830.50을 참조하십시오.
 
-**X. 검증**
+# X. 검증
 
 AI 기반 기기의 경우, 검증은 사용자가 활용하는 기기가 의도된 용도를 안전하고 효과적으로 수행할 것임을 보장하고, 기기의 관련 성능 사양이 일관되게 충족될 수 있음을 확립하는 것을 포함합니다. AI 기반 기기의 경우, 제조업체는 기기 자체가 관련 성능 사양을 충족하도록 보장하는 것 외에도 사용자가 의도된 대로 기기와 상호작용하고 이해할 수 있는 능력을 입증해야 합니다. 이를 위해 성능 검증(인적 요인 검증 포함)과 사용성 평가를 모두 고려하는 것이 도움이 될 수 있습니다. 본 지침서의 목적상(인적 요인 검증이 없는 경우 위험 통제의 맥락에서) 사용성은 사용자가 AI 기반 기기와 관련된 정보를 일관되고 정확하게 수신, 이해, 해석 및 적용하는지 여부를 포함하여, 의도된 사용자가 기기를 안전하고 효과적으로 사용할 수 있는지 여부를 설명한다는 점에 유의하십시오.
 
@@ -939,7 +939,12 @@ To support performance validation, sponsors should include information regarding
 [^54]: For more information on sex-specific data, please see FDA guidance titled "[Evaluation of Sex-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-sex-specific-data-medical-device-clinical-studies-guidance-industry-and-food-and-drug)." 성별 특정 데이터에 관한 자세한 정보는 FDA 지침 "의료기기 임상시험에서 성별 특정 데이터의 평가(Evaluation of Sex-Specific Data in Medical Device Clinical Studies)"를 참조하십시오.
 [^55]: For more information on age-, race-, and ethnicity-specific data, please see FDA guidance titled "[Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/evaluation-and-reporting-age-race-and-ethnicity-specific-data-medical-device-clinical-studies)." 연령-, 인종-, 민족-특정 데이터에 관한 자세한 정보는 FDA 지침 "의료기기 임상시험에서 연령-, 인종-, 민족-특정 데이터의 평가 및 보고(Evaluation and Reporting of Age-, Race-, and Ethnicity-Specific Data in Medical Device Clinical Studies)"를 참조하십시오.
 
-**A. 성능 검증**
+> ADDITIONAL RESOURCES:
+Appendix C (Performance Validation Considerations) includes recommendations to help develop and analyze a performance validation study and its data. Appendix D (Usability Evaluation Considerations) includes information to help sponsors evaluate usability risk controls for AI-enabled device submissions.
+> 
+> FDA encourages sponsors to use the [Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial) for obtaining FDA feedback on proposed approaches for AI-enabled device development and validation. If real-world evidence is used, sponsors may also wish to refer to FDA guidance titled “[Use of Real-World Evidence to Support Regulatory Decision-Making for Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/use-real-world-evidence-support-regulatory-decision-making-medical-devices).”
+
+## A. 성능 검증
 
 *AI 기반 기기의 신청서에 왜 포함되어야 하는가:* AI 기반 기기의 성능 검증은 기기가 의도된 용도에 따라 목표 인구에서 예측 가능하고 신뢰할 수 있게 수행된다는 객관적 증거를 제공합니다. 다음 권고사항은 "의료기기에 대한 중추적 임상 조사의 설계 고려사항," "진단 시험을 평가하는 연구의 결과 보고에 대한 통계적 지침," "임상 조사에서의 전자 원본 데이터"를 포함하여 해당되는 경우 기기별 권고사항 및 다른 FDA 지침서에 제공된 권고사항을 보완하기 위한 것입니다.
 
@@ -1007,11 +1012,6 @@ AI 기반 의료 영상 분석 시스템의 성능 평가는 기기의 의도된
 
 *스폰서가 신청서에서 제공해야 할 위치:* 기기의 비임상 또는 임상 시험에 대한 정보는 시판 신청서의 적절한 섹션에 포함되어야 합니다. 예를 들어, 임상 연구 결과는 시판 신청서의 임상 섹션에 포함되어야 합니다. 모델의 소프트웨어 검증 및 소프트웨어 밸리데이션에 대한 정보는 시판 전 소프트웨어 지침서에 설명된 대로 시판 신청서의 소프트웨어 문서 섹션의 "검증 및 밸리데이션의 일부로서의 소프트웨어 시험"에 포함되어야 합니다.
 
-> ADDITIONAL RESOURCES:
-Appendix C (Performance Validation Considerations) includes recommendations to help develop and analyze a performance validation study and its data. Appendix D (Usability Evaluation Considerations) includes information to help sponsors evaluate usability risk controls for AI-enabled device submissions.
-> 
-> FDA encourages sponsors to use the [Q-Submission Program](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial) for obtaining FDA feedback on proposed approaches for AI-enabled device development and validation. If real-world evidence is used, sponsors may also wish to refer to FDA guidance titled “[Use of Real-World Evidence to Support Regulatory Decision-Making for Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/use-real-world-evidence-support-regulatory-decision-making-medical-devices).”
-
 > 추가 자료:
 부록 C(성능 검증 고려사항)에는 성능 검증 연구 및 데이터를 개발하고 분석하는 데 도움이 되는 권장사항이 포함되어 있습니다. 부록 D(사용성 평가 고려사항)에는 AI 기반 의료기기 제출 시 사용성 위험 통제를 평가하는 데 도움이 되는 정보가 포함되어 있습니다.
 > 
@@ -1050,7 +1050,7 @@ Performance monitoring plans should identify and respond to, in a timely fashion
 [^57]: See 21 CFR 814.44 and 21 CFR 814.82. 21 CFR 814.44 및 21 CFR 814.82를 참조하십시오.
 [^58]: See FDA's guidance titled "[Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial)." FDA 지침 "인공지능 기반 기기 소프트웨어 기능을 위한 사전 결정된 변경 관리 계획에 대한 시판 제출 권고사항(Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions)"을 참조하십시오.
 
-**XI. 기기 성능 모니터링**
+# XI. 기기 성능 모니터링
 
 *AI 기반 의료기기 제출 시 포함되어야 하는 이유:* 실제 환경에 배포된 AI 기반 의료기기(즉, 승인 또는 허가 후 시판되는 AI 기반 의료기기)의 성능은 시간이 지남에 따라 변화하거나 저하될 수 있으며, 이는 환자에게 위험을 초래할 수 있습니다. 일반적으로 AI 기반 의료기기를 포함한 의료기기의 품질 시스템의 일환으로, 제조업체는 시판 후 환경에서 성능 변화를 식별하고 대응하는 데 도움이 되는 시판 후 성능 모니터링 계획을 수립해야 합니다. 시판 허가 제출 시 성능 모니터링 계획을 포함하면 불확실성을 줄이고 FDA의 위험 통제 평가를 지원할 수 있습니다.
 
@@ -1119,7 +1119,14 @@ Sponsors should refer to the control recommendations in Appendix 1 of the [2023 
 
 *Where sponsors should provide it in a submission:* The cybersecurity information should be included in the **“Cybersecurity/Interoperability”** section of the marketing submission, as described in the [2023 Premarket Cybersecurity Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions).
 
-**XII. 사이버보안**
+> ADDITIONAL RESOURCES:
+Sponsors may also refer to other FDA guidance documents for additional recommendations relevant to cybersecurity:
+* [Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions)
+* [Postmarket Management of Cybersecurity in Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/postmarket-management-cybersecurity-medical-devices)
+* [Cybersecurity for Networked Medical Devices Containing Off-the-Shelf (OTS) Software](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-networked-medical-devices-containing-shelf-ots-software)
+* [Off-The-Shelf Software Use in Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices)
+
+# XII. 사이버보안
 
 *AI 기반 의료기기 제출 시 포함되어야 하는 이유:* 의료기기에 통합된 모든 디지털 또는 소프트웨어 구성 요소와 마찬가지로 AI는 사이버보안 위험을 야기할 수 있습니다. 사이버보안 설계 및 유지 관리와 관련 시판 허가 제출 문서에 대한 FDA의 일반적인 권장사항은 *"의료기기의 사이버보안: 품질 시스템 고려사항 및 시판 전 제출 내용(Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions)"* (이하 "2023 시판 전 사이버보안 지침")이라는 제목의 지침 문서에 제공되어 있습니다. 2023 시판 전 사이버보안 지침은 AI 기반 의료기기를 포함한 의료기기와 관련될 수 있는 보안 목표를 식별합니다: 무결성을 포함하는 진본성(authenticity), 권한 부여(authorization), 가용성(availability), 기밀성(confidentiality), 그리고 안전하고 적시의 업데이트 가능성 및 패치 가능성(secure and timely updatability and patchability).
 
@@ -1161,13 +1168,6 @@ FD&C Act의 섹션 524B(c)에 따른 "사이버 기기(cyber device)"의 정의�
 
 *제조업체가 제출 시 제공해야 할 위치:* 사이버보안 정보는 2023 시판 전 사이버보안 지침에 설명된 대로 시판 허가 제출의 **"사이버보안/상호운용성(Cybersecurity/Interoperability)"** 섹션에 포함되어야 합니다.
 
-> ADDITIONAL RESOURCES:
-Sponsors may also refer to other FDA guidance documents for additional recommendations relevant to cybersecurity:
-* [Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions)
-* [Postmarket Management of Cybersecurity in Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/postmarket-management-cybersecurity-medical-devices)
-* [Cybersecurity for Networked Medical Devices Containing Off-the-Shelf (OTS) Software](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-networked-medical-devices-containing-shelf-ots-software)
-* [Off-The-Shelf Software Use in Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices)
-
 > 추가 자료:
 제조업체는 사이버보안과 관련된 추가 권장사항을 위해 다음과 같은 기타 FDA 지침 문서를 참조할 수도 있습니다:
 * *의료기기의 사이버보안: 품질 시스템 고려사항 및 시판 전 제출 내용(Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions)*
@@ -1203,7 +1203,11 @@ Sponsors should consider using a model card to organize information. Appendix E 
 [^63]: For more information, see FDA guidance, "[The 510(k) Program: Evaluating Substantial Equivalence in Premarket Notifications (510(k))](https://www.fda.gov/media/82395/download)." 자세한 정보는 FDA 지침 "510(k) 프로그램: 시판 전 신고(510(k))에서 실질적 동등성 평가(The 510(k) Program: Evaluating Substantial Equivalence in Premarket Notifications (510(k)))"를 참조하십시오.
 [^64]: For more information regarding the requirements for PMA, see 21 CFR Part 814. For more information regarding the requirements for 510(k), see 21 CFR 807.81 – 807.100. For more information regarding the requirements for De Novo, see 21 CFR 860.200 – 860.260. For more information regarding the requirements for HDE, see 21 CFR 814.100 – 814.126. For more information regarding the requirements for BLA, see 21 CFR Part 600 – 680. PMA 요건에 관한 자세한 정보는 21 CFR Part 814를 참조하십시오. 510(k) 요건에 관한 자세한 정보는 21 CFR 807.81 – 807.100을 참조하십시오. De Novo 요건에 관한 자세한 정보는 21 CFR 860.200 – 860.260을 참조하십시오. HDE 요건에 관한 자세한 정보는 21 CFR 814.100 – 814.126을 참조하십시오. BLA 요건에 관한 자세한 정보는 21 CFR Part 600 – 680을 참조하십시오.
 
-**XIII. 공개 제출 요약**
+>ADDITIONAL RESOURCES:
+Appendix E (*Example Model Card*) of this guidance provides one example of the format of a model card.
+Appendix F (*Example 510(k) Summary with Model Card*) of this guidance provides an example of a public submission summary for a product, including a completed model card.
+
+# XIII. 공개 제출 요약
 
 *AI 기반 의료기기 제출 시 포함되어야 하는 이유:* 투명성은 시판 전 승인의 핵심 구성 요소이며 환자 치료에 중요합니다. 이는 데이터 중심적이고 어느 정도의 불투명성을 나타내는 알고리즘을 통합하는 AI 기반 의료기기에 특히 중요합니다. *"인공지능/머신러닝 기반 의료기기의 투명성(Transparency of Artificial Intelligence/Machine Learning-enabled Medical Devices)"*이라는 제목의 2021년 10월 14일 AI 기반 의료기기의 투명성에 관한 가상 공개 워크숍을 포함한 공개 워크숍 및 의견에서 환자들은 치료에 AI를 사용하는 것에 대한 우려를 표명했습니다. 대중은 FDA가 AI 기반 의료기기에 대한 승인 결정을 내리는 방법에 대한 추가 정보와 이러한 기기의 설계 및 검증에 대한 더 많은 정보를 지속적으로 요구해 왔습니다. 공개 제출 요약에는 투명성을 지원하기 위해 이러한 기기의 특성을 설명하는 구체적인 정보가 포함되어야 하며, 이는 AI 기반 의료기기에 대한 이해를 높이고 대중의 신뢰를 구축함으로써 공중 보건에 기여할 수 있습니다.
 
@@ -1226,10 +1230,6 @@ PMA, HDE, De Novo, BLA 또는 510(k) 경로를 통해 제출된 AI 기반 의료
 
 *제조업체가 제출 시 제공해야 할 위치:* 공개 제출 요약은 시판 허가 제출의 **"행정 문서화(Administrative Documentation)"** 섹션에 포함되어야 합니다.
 
->ADDITIONAL RESOURCES:
-Appendix E (*Example Model Card*) of this guidance provides one example of the format of a model card.
-Appendix F (*Example 510(k) Summary with Model Card*) of this guidance provides an example of a public submission summary for a product, including a completed model card.
-
 >추가 자료:
 본 지침의 부록 E(*모델 카드 예시*)는 모델 카드 형식의 한 가지 예를 제공합니다.
 본 지침의 부록 F(*모델 카드가 포함된 510(k) 요약 예시*)는 작성된 모델 카드를 포함하여 제품에 대한 공개 제출 요약의 예를 제공합니다.
@@ -1239,10 +1239,6 @@ Appendix F (*Example 510(k) Summary with Model Card*) of this guidance provides 
 Sections V–XIII of this guidance provide recommendations regarding the documentation that may be included within a marketing submission for AI-enabled devices. The table below summarizes recommended locations within the marketing submission to provide discussed documentation. One way this documentation may be submitted is through the eSTAR Program. Specifically, eSTAR is an interactive PDF form that guides applicants through the process of preparing a comprehensive medical device submission.[^65] eSTAR is free and is required for all 510(k) submissions, unless exempted.
 
 [^65]: For more information on eSTAR, please see FDA's website on [eSTAR Program](https://www.fda.gov/medical-devices/how-study-and-market-your-device/estar-program). eSTAR에 관한 자세한 정보는 FDA의 eSTAR 프로그램(eSTAR Program) 웹사이트를 참조하십시오.
-
-**부록 A: 권장 문서 목록표**
-
-본 지침의 섹션 V–XIII는 AI 기반 의료기기에 대한 시판 허가 제출 시 포함될 수 있는 문서에 관한 권장사항을 제공합니다. 아래 표는 논의된 문서를 제공하기 위한 시판 허가 제출 내 권장 위치를 요약한 것입니다. 이 문서를 제출할 수 있는 한 가지 방법은 eSTAR 프로그램을 통하는 것입니다. 구체적으로, eSTAR은 신청자가 포괄적인 의료기기 제출을 준비하는 과정을 안내하는 대화형 PDF 양식입니다.[^65] eSTAR은 무료이며 면제되지 않는 한 모든 510(k) 제출에 필수입니다.
 
 | **Guidance Section and Recommended Information** | **Recommended Section in Sponsor’s Marketing Submission** |
 | --- | --- |
@@ -1256,6 +1252,23 @@ Sections V–XIII of this guidance provide recommendations regarding the documen
 | Section XI — Device Performance Monitoring  | Risk Management File of Software Documentation |
 | Section XII — Cybersecurity | Cybersecurity |
 | Section XIII — Public Submission Summary | Administration Information |
+
+# 부록 A: 권장 문서 목록표
+
+본 지침의 섹션 V–XIII는 AI 기반 의료기기에 대한 시판 허가 제출 시 포함될 수 있는 문서에 관한 권장사항을 제공합니다. 아래 표는 논의된 문서를 제공하기 위한 시판 허가 제출 내 권장 위치를 요약한 것입니다. 이 문서를 제출할 수 있는 한 가지 방법은 eSTAR 프로그램을 통하는 것입니다. 구체적으로, eSTAR은 신청자가 포괄적인 의료기기 제출을 준비하는 과정을 안내하는 대화형 PDF 양식입니다.[^65] eSTAR은 무료이며 면제되지 않는 한 모든 510(k) 제출에 필수입니다.
+
+| **안내 섹션 및 권장 정보** | **스폰서의 마케팅 제출물에서 권장되는 섹션** |
+| --- | --- |
+| 섹션 V — 기기 설명 | 기기 설명  |
+| 섹션 VI.A — 사용자 인터페이스 | 소프트웨어 설명 |
+| 섹션 VI.B — 라벨링 | 라벨링 |
+| 섹션 VII — 위험 평가 | 소프트웨어 문서의 위험 관리 파일 |
+| 섹션 VIII — 데이터 관리 | 개발용 데이터: 소프트웨어 문서의 소프트웨어 설명<br>테스트용 데이터: 성능 테스트 |
+| 섹션 IX — 모델 설명 및 개발 | 소프트웨어 설명  |
+| 섹션 X.A — 성능 검증 | 임상 및 비임상 테스트: 성능 테스트<br>소프트웨어 검증 및 소프트웨어 밸리데이션: 소프트웨어 문서의 검증 및 밸리데이션의 일부로서의 소프트웨어 테스트 |
+| 섹션 XI — 기기 성능 모니터링  | 소프트웨어 문서의 위험 관리 파일 |
+| 섹션 XII — 사이버보안 | 사이버보안 |
+| 섹션 XIII — 공개 제출 요약 | 관리 정보 |
 
 # Appendix B: Transparency Design Considerations
 
@@ -1321,7 +1334,7 @@ The selection of the timing, mode, and format of communication should be incorpo
 **Explainability Information and Visualizations**\
 It is also important to consider when additional information may detract from understanding, rather than add to it. For example, explainability tools or visualizations can be valuable in increasing model transparency and a user’s confidence in a model’s output and could be developed as part of the user interface. However, if not well designed and validated for the target user group, explainability tools or visualizations could also significantly mislead users. Therefore, sponsors should develop and validate explainability metrics and visualizations through appropriate testing.
 
-**부록 B: 투명성 설계 고려사항**
+# 부록 B: 투명성 설계 고려사항
 
 이 부록에는 사용자 중심의 투명한 기기 개발을 위한 권장사항이 포함되어 있습니다. 이러한 권장사항은 제조업체가 안전하고 효과적인 의료기기와 고품질의 시판 허가 제출을 개발하는 데 도움을 주기 위한 것입니다. 제조업체는 FDA의 안전성 및 유효성 평가를 지원하는 대체 접근법을 식별할 수 있지만, 시판 허가 제출을 뒷받침하는 정보의 가용성을 보장하기 위해 TPLC의 설계 단계부터 투명성 고려사항을 통합해야 합니다. 기기 변경으로 인해 추가 테스트가 필요할 수 있는 TPLC의 후기 단계에서 투명성을 기기에 통합하는 것은 어려울 수 있습니다. 본 지침에서 투명성은 기기의 맥락적으로 관련된 성능 및 설계 정보를 적절한 이해관계자가 이해하고 조치를 취할 수 있는 방식으로 명확하게 전달하는 것을 의미합니다. 투명성은 중요한 정보가 접근 가능하고 기능적으로 이해 가능하도록 보장하는 것을 포함하며, 정보 공유와 기기의 사용성 모두와 연결되어 있습니다. 따라서 투명성 설계에 대한 사용자 중심 접근법은 AI 기반 의료기기의 안전하고 효과적인 사용을 지원하는 데 도움이 됩니다. 적절한 투명성 정보를 포함하면 기기 사용 의향이 두 배 이상 증가하는 것으로 나타났습니다.
 
@@ -1434,7 +1447,7 @@ For example, compare two hypothetical AI-enabled diagnostic devices (A and B) us
 
 Thus, a good practice is to examine the influence of a QC algorithm by checking the proportion of low-quality dropouts and assessing the results of a sensitivity analysis assuming a worst-case scenario (i.e., assuming the QC failure cases are all difficult ones that the model fails to classify successfully).
 
-**부록 C: 성능 검증 고려사항**
+# 부록 C: 성능 검증 고려사항
 
 이 부록에는 AI 기반 의료기기의 임상 성능 검증의 일부 측면에 대한 권장사항이 포함되어 있으며, 이는 제조업체가 안전하고 효과적인 의료기기를 개발하는 데 도움을 주기 위한 것입니다. 제조업체는 FDA의 안전성 및 유효성 평가를 지원하는 대체 접근법을 식별할 수 있지만, 기기의 성능을 확립하기 위해 기기를 엄격하게 테스트해야 하며, 기기의 의도된 사용을 뒷받침하는 적절한 데이터 수집을 보장하기 위해 설계 및 개발 프로세스 초기에 그러한 계획을 통합해야 합니다. 예를 들어, 중추적 임상 연구 완료 후 추가 지원 데이터를 수집하는 것은 어려울 수 있습니다. 제조업체는 또한 특정 임상 연구 고려사항에 관한 다른 FDA 지침에서 찾을 수 있는 권장사항을 따라야 합니다. 예를 들어, AI 기반 의료기기의 결과 평가 및 보고에 대한 추가 정보는 FDA 지침 "의료기기에 대한 중추적 임상 조사의 설계 고려사항(Design Considerations for Pivotal Clinical Investigations for Medical Devices)", "진단 테스트를 평가하는 연구의 결과 보고에 대한 통계 지침(Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests)" 및 "임상 조사에서의 전자 원시 데이터(Electronic Source Data in Clinical Investigations)"에서 찾을 수 있습니다. 이러한 권장사항은 모든 기기 유형에 적용되지 않을 수 있습니다.
 
@@ -1497,7 +1510,7 @@ Appendix B (Transparency Design Considerations) of this guidance also outlines r
 [^67]: See Section X (Validation) for context regarding "usability" for the purpose of this guidance. 본 지침의 목적상 "사용성(usability)"에 관한 맥락은 제X절(검증, Validation)을 참조하십시오.
 [^68]: ANSI/AAMI/ISO 14971 Medical devices—Application of risk management to medical devices. ANSI/AAMI/ISO 14971 의료기기—의료기기에 대한 위험 관리의 적용(Medical devices—Application of risk management to medical devices).
 
-**부록 D: 사용성 평가 고려사항**\
+# 부록 D: 사용성 평가 고려사항
 본 지침 섹션 X 검증에 설명된 바와 같이, 제조업체는 시판 전 제출이 필요한 모든 의료기기에 대해 설계 통제(21 CFR 820.30)의 일환으로 인적 요인 평가를 수행해야 합니다. 인적 요인 지침(Human Factors Guidance)은 이 평가에 대한 분석적 접근법과 하나 이상의 중요 작업이 식별된 기기에 대한 인적 요인 검증의 구체적 요구사항을 개괄적으로 설명합니다. 인적 요인 공학 프로세스는 일반적으로 잘못 수행되거나 전혀 수행되지 않을 경우 심각한 피해를 야기할 수 있는 중요 작업을 식별하는 모든 작업에 대한 예비 분석 및 평가로 시작됩니다.[^66] 제조업체는 기기에 중요 작업이 있는지 식별하기 위해 이 분석을 수행해야 합니다. 중요 작업이 식별되면, 제조업체는 인적 요인 지침을 참조하고 인적 요인 검증을 수행해야 합니다. 중요 작업이 없는 기기의 제조업체는 인적 요인 검증 테스트 보고서를 제출할 필요가 없을 수 있지만, 기기 설계를 테스트하고 위험 통제의 효능을 뒷받침하기 위해 인적 요인 지침에 개괄된 프로세스 또는 선택한 다른 접근법을 사용하여 사용성을 평가하도록 선택할 수 있습니다.[^67] 이 부록은 인적 요인 검증 테스트 보고서가 요구되지 않을 때 위험 통제를 뒷받침하기 위한 사용성 평가에 초점을 맞추고 있으며, 여기서 사용성은 모든 의도된 사용자가 기기를 사용하는 동안 특정 목표를 달성할 수 있는지, 그리고 사용자가 기기와 안전하고 효과적으로 일관되게 상호작용할 수 있는지를 다룹니다. 이는 사용자가 AI 기반 의료기기와 관련된 정보를 일관되고 정확하게 수신, 이해, 해석 및 적용할 수 있는지 여부를 포함하지만 이에 국한되지 않습니다.
 
 FDA의 인적 요인 지침이 사용성 평가를 위한 권장 분석 접근법을 개괄적으로 설명하지만, 제조업체는 해당 지침의 범위를 벗어나는 사용자 작업 평가를 위한 대체 접근법을 활용하도록 선택할 수 있습니다. 이 테스트가 섹션 VII(위험 평가)에 설명된 대로 위험 통제를 뒷받침하는 데 사용되는 경우, 제조업체는 사전 명시된 테스트 프로토콜 및 분석 계획에 대한 설명과 평가 방법의 적절성에 대한 정당화를 포함해야 합니다.
@@ -1576,7 +1589,7 @@ When model cards are provided in a digital format, research has demonstrated tha
 [^69]: See 21 CFR 807.92. 21 CFR 807.92를 참조하십시오.
 [^70]: See 21 CFR Part 801. 21 CFR Part 801을 참조하십시오.
 
-**부록 E: 모델 카드 예시**\
+# 부록 E: 모델 카드 예시
 모델 카드는 FDA가 요구할 수 있는 정보의 종류와 일치할 수 있는 기기에 대한 정보를 전달하기 위한 인기 있는 형식입니다. 예를 들어 공개적으로 이용 가능한 510(k) 요약[^69] 및 라벨링[^70]에서 그러합니다. 아래에서 논의되는 모델 카드 형식과 내용은 제조업체가 공개 제출 요약 및 이 정보가 제조업체에 의해 공유될 수 있는 다른 위치에서 모델 및 AI 기반 의료기기에 대한 정보를 전달하는 데 사용할 수 있는 가능한 형식의 예로 제공되기 위한 것입니다. FDA가 모델 카드 또는 특정 모델 카드 형식의 포함을 요구하지 않으며, 이 예시는 템플릿으로 간주되어서는 안 된다는 점에 유의하는 것이 중요합니다. 아래의 예시 모델 카드는 비기술적 청중이 유용하고 이해하기 쉬운 순서와 형식으로 데이터를 제시하기 위해 사용자 중심 연구를 기반으로 설계되었으며, 모델 카드의 포함을 촉진하기 위해 제조업체에게 제공됩니다.
 
 일반적으로 모델 카드는 각 AI 기반 의료기기의 특정 요구와 맥락에 맞게 조정될 수 있습니다. 그러나 공개 요약의 경우, 제조업체는 본 지침에 개괄된 모델 카드 작성을 위한 일반 원칙을 따를 것을 권장합니다. 일부 요소는 모든 기기에 대해 이용 가능하지 않을 수 있습니다.
@@ -1647,20 +1660,11 @@ In general, publicly available summaries must follow the applicable requirements
 [^72]: See 21 CFR 860.220. For more information, please see FDA guidance titled "[De Novo Classification Process (Evaluation of Automatic Class III Designation)](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/de-novo-classification-process-evaluation-automatic-class-iii-designation)." 21 CFR 860.220을 참조하십시오. 자세한 정보는 FDA 지침 "De Novo 분류 절차(자동 Class III 지정의 평가)(De Novo Classification Process (Evaluation of Automatic Class III Designation))"를 참조하십시오.
 [^73]: See 21 CFR Part 814.9(e). 21 CFR Part 814.9(e)를 참조하십시오.
 
-**부록 F: 모델 카드가 포함된 510(k) 요약 예시**\
-일반적으로 공개적으로 이용 가능한 요약은 특정 시판 허가 제출(예: 510(k)[^71], De Novo[^72], PMA[^73])에 대한 해당 요구사항을 따라야 합니다. 아래 항목은 제조업체가 다룰 것으로 예상될 수 있는 주제의 완전한 목록이 아니며, 모든 주제가 모든 시판 허가 제출에 적용되지 않을 수 있습니다. 마찬가지로, FDA는 이 요약에 추가 정보를 포함할 것을 요청할 수 있습니다. 이 부록은 작성된 기본 모델 카드의 예시를 포함하여 제조업체가 일반적으로 510(k) 요약에 제공해야 하는 정보 유형의 예시로만 제공됩니다. 정보는 모델 카드와 공개 요약의 다른 섹션 간에 반복될 필요가 없지만, 유용한 맥락을 제공하는 경우 중복이 허용됩니다.
-
 **Indications For Use:**\
 The *Disease X Screening Model* is software intended to aid in screening for Disease X in patients above the age of 22 by analyzing 12-lead electrocardiogram (ECG) recordings from compatible ECG devices. It is not intended to be a stand-alone diagnostic device for Disease X. However, a positive result may suggest the need for further clinical evaluation in order to establish a diagnosis of Disease X. If the patient is at high risk for Disease X, a negative result should not rule out further non-invasive evaluation. It should not be used to replace the current standard of care methods for diagnosis of Disease X but applied jointly with clinician judgment.
 
 **Device Description:**\
 The stand-alone software contains a machine learning model that uses a convolutional neural network (CNN) to interpret and analyze 10 seconds of a 12-lead resting electrocardiogram acquired from four compatible ECG devices (A, B, C, and D) and provide an output on the likelihood that a patient has Disease X and requires further clinical evaluation. The software also contains quality checks that will notify the end user whether the ECG data provided meets the input requirements necessary to generate a model output. If the data do not meet these requirements, an error message will be displayed.
-
-**사용 적응증:**\
-*Disease X 선별 모델(Disease X Screening Model)*은 호환 가능한 ECG 기기로부터 얻은 12유도 심전도(ECG) 기록을 분석하여 22세 이상 환자의 Disease X 선별을 보조하기 위한 소프트웨어입니다. 이는 Disease X에 대한 독립형 진단 기기로 의도되지 않았습니다. 그러나 양성 결과는 Disease X 진단을 확립하기 위해 추가 임상 평가가 필요함을 시사할 수 있습니다. 환자가 Disease X의 고위험군인 경우, 음성 결과가 추가 비침습적 평가를 배제해서는 안 됩니다. 이는 Disease X 진단을 위한 현재의 표준 진료 방법을 대체하는 데 사용되어서는 안 되며 임상의의 판단과 함께 적용되어야 합니다.
-
-**기기 설명:**\
-독립형 소프트웨어는 합성곱 신경망(CNN)을 사용하는 머신러닝 모델을 포함하고 있으며, 4개의 호환 가능한 ECG 기기(A, B, C, D)로부터 획득한 12유도 안정 시 심전도의 10초를 해석 및 분석하여 환자가 Disease X를 가지고 있으며 추가 임상 평가가 필요할 가능성에 대한 출력을 제공합니다. 소프트웨어에는 또한 제공된 ECG 데이터가 모델 출력을 생성하는 데 필요한 입력 요구사항을 충족하는지 여부를 최종 사용자에게 알리는 품질 검사가 포함되어 있습니다. 데이터가 이러한 요구사항을 충족하지 않으면 오류 메시지가 표시됩니다.
 
 | **Summary of Technological Characteristics** | **Subject Device** | **Predicate Device** | **Comparison** |                                   
 | --- | --- | --- | --- |
@@ -1674,19 +1678,6 @@ The stand-alone software contains a machine learning model that uses a convoluti
 | **Output**  | The software provides the following outputs:<br>1. Presence of Disease X. Seek further clinical evaluation to establish a diagnosis of Disease X.<br>2. Presence of Disease X not likely. However, please use clinical judgment and determine if further evaluation is necessary.<br>3. Error Message: The 12-lead ECG does not pass the quality checks in place. | Software provides an output on the possibility of Disease X and if further evaluation is needed. | Similar. Both devices identify if there is presence of Disease X and whether further evaluation is needed. Both indicate that they should not be used as a stand-alone and that clinical judgment should guide further evaluation. |
 | **Ground Truth for Model Training** | Echocardiogram  | Echocardiogram  | Same  |
 | **Performance** | Sensitivity: 87% (83%, 89%)<br>Specificity: 83% (81%, 85%)<br>Positive Predictive Value (PPV): 56%  | Sensitivity: 82% (78%, 85%)<br>Specificity: 81% (79%, 84%)<br>Positive Predictive Value (PPV): 53%  | Similar. The subject device has slightly better performance than the predicate device in sensitivity, specificity, and PPV. |
-
-| **기술적 특성 요약** | **대상 기기** | **비교 대상 기기** | **비교** |                                   
-| --- | --- | --- | --- |
-| **신청 번호** | KXXXXXX  | KXXXXXX | -   |
-| **제품 코드**  | XXX   | XXX | -  |
-| **규정 번호** | 21 CFR XXXX  | 21 CFR XXXX | -  |
-| **Rx/OTC**  | Rx | Rx  | 동일 |
-| **사용 적응증** | Disease X 선별 모델은 호환 가능한 ECG 기기로부터 기록된 12유도 심전도를 분석하여 22세 이상 환자의 Disease X 선별을 보조하기 위한 소프트웨어입니다. 이는 Disease X에 대한 독립형 진단 기기로 의도되지 않았습니다. 그러나 양성 결과는 Disease X 진단을 확립하기 위해 추가 임상 평가가 필요함을 시사할 수 있습니다. 환자가 Disease X의 고위험군인 경우, 음성 결과가 추가 평가를 배제해서는 안 됩니다. 이는 Disease X 진단을 위한 현재의 표준 진료 방법을 대체하는 데 사용되어서는 안 되며 임상의의 판단과 함께 적용되어야 합니다. | 18세 이상 환자에서 환자가 Disease X를 가지고 있는지 판단하는 보조 도구로 사용되도록 의도된 소프트웨어입니다. 소프트웨어는 호환 가능한 기기로부터 12유도 ECG를 분석하며 독립형 진단 기기로 사용되어서는 안 됩니다. | 유사. 두 기기 모두 Disease X에 대한 보조 도구 및 선별 도구로 사용됩니다. 비교 대상 기기의 사용 적응증은 18세 이상 환자를 대상으로 하는 반면, 대상 기기는 22세 이상을 대상으로 합니다. |
-| **작동 모드**  | 스팟 체크 / 진단 기기로 사용되지 않음 | 스팟 체크 / 진단 기기로 사용되지 않음  | 동일  |
-| **하드웨어 입력**  | 다음의 호환 가능한 기기로부터의 12유도 ECG: A, B, C, D  | 다음의 호환 가능한 기기로부터의 12유도 ECG: A, B  | 유사. 두 기기 모두 12유도 ECG로부터의 입력이 필요하지만, 대상 기기는 더 많은 호환 가능한 ECG 입력 기기를 허용합니다. |
-| **출력**  | 소프트웨어는 다음 출력을 제공합니다:<br>1. Disease X 존재. Disease X 진단을 확립하기 위해 추가 임상 평가를 요청하십시오.<br>2. Disease X 존재 가능성이 낮음. 그러나 임상적 판단을 사용하고 추가 평가가 필요한지 판단하십시오.<br>3. 오류 메시지: 12유도 ECG가 설정된 품질 검사를 통과하지 못했습니다. | 소프트웨어는 Disease X의 가능성과 추가 평가가 필요한지에 대한 출력을 제공합니다. | 유사. 두 기기 모두 Disease X의 존재 여부와 추가 평가가 필요한지를 식별합니다. 두 기기 모두 독립형으로 사용되어서는 안 되며 임상적 판단이 추가 평가를 안내해야 함을 나타냅니다. |
-| **모델 훈련을 위한 참조 표준** | 심초음파  | 심초음파  | 동일  |
-| **성능** | 민감도: 87% (83%, 89%)<br>특이도: 83% (81%, 85%)<br>양성 예측값(PPV): 56%  | 민감도: 82% (78%, 85%)<br>특이도: 81% (79%, 84%)<br>양성 예측값(PPV): 53%  | 유사. 대상 기기는 민감도, 특이도 및 PPV에서 비교 대상 기기보다 약간 더 나은 성능을 보입니다. |
 
 **Model Training Description:**\
 The model was trained from a dataset independent from the test dataset. The model was trained with 30,000 patients that received an ECG and echocardiogram performed within 30 days apart from one another. The echocardiogram was used to establish clinical reference standard (ground truth) in patients. The dataset was collected from clinical databases from 2 diverse hospital networks (Hospital A and Hospital B). Disease X was defined as patients who had a left ventricular wall thickness >= 15 mm based on echocardiographic imaging.
@@ -1722,41 +1713,6 @@ The model was evaluated taking into account applicable requirements of the FD&C 
 * Human Factors and Usability testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Applying Human Factors and Usability Engineering to Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices).”
 * Cybersecurity testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions).”
 * Software verification and validation testing was conducted and documentation was provided as recommended in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
-
-**모델 훈련 설명:**\
-모델은 테스트 데이터셋과 독립적인 데이터셋으로부터 훈련되었습니다. 모델은 서로 30일 이내에 수행된 ECG와 심초음파를 받은 30,000명의 환자로 훈련되었습니다. 심초음파는 환자의 임상 참조 표준(참조 표준)을 확립하는 데 사용되었습니다. 데이터셋은 2개의 다양한 병원 네트워크(병원 A와 병원 B)의 임상 데이터베이스에서 수집되었습니다. Disease X는 심초음파 영상을 기반으로 좌심실 벽 두께가 >= 15 mm인 환자로 정의되었습니다.
-훈련 데이터셋에는 질병 집단을 대표하는 다음과 같은 인구통계학적 분류가 포함되었습니다:
-
-| 인종                                | 백분율 (%) |
-| ----------------------------------- | -------------- |
-| 백인                               | 75.5           |
-| 흑인 또는 아프리카계 미국인           | 13.6           |
-| 아메리카 원주민 또는 알래스카 원주민    | 1.3            |
-| 아시아인                               | 6.3            |
-| 하와이 원주민 또는 태평양 섬 주민 | 0.3            |
-| 둘 이상의 인종                   | 3.0            |
-
-샘플은 남성 참여자 49.5%와 여성 참여자 50.5%로 구성되었습니다. 평균 연령은 62세였으며 다음과 같은 연령 분포를 보였습니다:
-
-| 연령 (세)                | 백분율 (%) |
-| -------------------------- | -------------- |
-| 40세 미만        | 10             |
-| 40-49                      | 10             |
-| 50-59                      | 25             |
-| 60-69                      | 30             |
-| 70-79                      | 15             |
-| 79세 초과 | 10             |
-
-Disease X를 가진 환자는 전체 코호트의 20%였으며 Disease X가 없는 환자(대조군)는 전체 코호트의 80%를 구성했습니다. 두 그룹 모두 훈련(50%), 튜닝(20%) 및 튜닝 평가(30%) 데이터셋으로 분할되었습니다. 모델의 민감도와 특이도는 튜닝 평가 데이터셋으로부터 계산되었습니다. 모델은 다음을 달성할 수 있었습니다:
-* 민감도: 87% (83%, 89%)
-* 특이도: 83% (81%, 85%)
-* 양성 예측값(PPV): 56%
-
-**비임상 성능 데이터 요약**\
-모델은 FD&C Act의 해당 요구사항 및 시행 규정을 고려하여 평가되었습니다. 여기에는 다음 테스트가 포함되었습니다:
-* 인적 요인 및 사용성 테스트가 수행되었으며 FDA의 지침 문서 "의료기기에 인적 요인 및 사용성 공학 적용(Applying Human Factors and Usability Engineering to Medical Devices)"에서 권장하는 대로 문서가 제공되었습니다.
-* 사이버보안 테스트가 수행되었으며 FDA의 지침 문서 "의료기기의 사이버보안: 품질 시스템 고려사항 및 시판 전 제출 내용(Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions)"에서 권장하는 대로 문서가 제공되었습니다.
-* 소프트웨어 검증 및 확인 테스트가 수행되었으며 시판 전 소프트웨어 지침(Premarket Software Guidance)에서 권장하는 대로 문서가 제공되었습니다.
 
 **Summary of Clinical Validation:**\
 **Study Design**\
@@ -1829,6 +1785,167 @@ The model achieved a sensitivity of 84%, a specificity of 83%, a PPV of 55%, and
 | Sum         | 5000     | 20000    | 25000 | 1 (1, 1)         | Prevalence 20% (19.5%, 20.5%) |
 | Performance | Sensitivity = 84% (82.9%, 85%)| Specificity = 83% (82.5%, 83.5%)|       |                  |                               |
 
+**Plain Language Interpretation for Benefit-Risk Consideration:**\
+Assume the prevalence of Disease X in the intended use population of the device is 20%. Among 1000 patients from the target population, about 168 (1000 × Prevalence × Sensitivity) patients will be correctly classified as having the Disease X (i.e., 168 device true positives out of 200 total reference positive patients), while about 136 (1000 × (1 - Prevalence) × (1 - Specificity)) patients will be wrongly classified as having the Disease X (i.e., 136 device false positives out of 800 total reference negative patients). Thus, each true positive patient comes at the cost of 0.8 (136/168) false positive patients (compares to Y from the standard of care, or 4 (800/200) from a worst-case scenario where every patient is called positive). Furthermore, to identify one extra true positive patient, we need to assess about two patients (considering potential device positive/negative outcomes) since NNP (Number Needed to Predict) = 1 / (PPV + NPV - 1) = 1.97 (compares to the standard of care with NNP of Z, or a perfect device with a NNP of one).
+
+// 여기에 그림 삽입
+
+The subgroup analysis for each demographic can be found below. 
+
+*Please note that while confidence intervals could not be generated for this fictitious example, sponsors should include confidence intervals on all reported results. Placeholders have been included in each cell to represent the confidence interval: ($X_{ll}$, $X_{ul}$), where “$ll$” stands for lower limit and “$ul$” stands for upper limit.*
+
+| Race                                             | Percentage (%) | Sensitivity     | PPV              |
+| ------------------------------------------------ | -------------- | --------------- | ---------------- |
+| White                                            | 75.5           | 85.3 ($X_{ll}$, $X_{ul}$) | 57.3% ($X_{ll}$, $X_{ul}$) |
+| Black or African American                        | 13.6           | 82.9 ($X_{ll}$, $X_{ul}$) | 54.4% ($X_{ll}$, $X_{ul}$) |
+| American Indian and Alaska Native                | 1.3            | 81.6 ($X_{ll}$, $X_{ul}$) | 54.8% ($X_{ll}$, $X_{ul}$) |
+| Asian                                            | 6.3            | 83.9 ($X_{ll}$, $X_{ul}$) | 56.1% ($X_{ll}$, $X_{ul}$) |
+| Native Hawaiian and Other Pacific Islander alone | 0.3            | 83.6 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
+| Two or More Races                                | 3              | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
+
+| Age                        | Percentage (%) | Sensitivity     | PPV              |
+| -------------------------- | -------------- | --------------- | ---------------- |
+| Under the age of 40        | 10             | 84.9 ($X_{ll}$, $X_{ul}$) | 55% ($X_{ll}$, $X_{ul}$)   |
+| 40-49                      | 10             | 85.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
+| 50-59                      | 16             | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
+| 60-69                      | 23             | 84.5 ($X_{ll}$, $X_{ul}$) | 56% ($X_{ll}$, $X_{ul}$)   |
+| 70-79                      | 22             | 83.6 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
+| Greater than the age of 79 | 19             | 82.1 ($X_{ll}$, $X_{ul}$) | 52.7% ($X_{ll}$, $X_{ul}$) |
+
+| ECG Acquisition Device | Percentage (%) | Sensitivity     | PPV              |
+| ---------------------- | -------------- | --------------- | ---------------- |
+| A                      | 26.6           | 84.7 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
+| B                      | 25.1           | 83.6 ($X_{ll}$, $X_{ul}$) | 54.3% ($X_{ll}$, $X_{ul}$) |
+| C                      | 24.9           | 85.4 ($X_{ll}$, $X_{ul}$) | 57.9% ($X_{ll}$, $X_{ul}$) |
+| D                      | 23.3           | 84.6 ($X_{ll}$, $X_{ul}$) | 55.1% ($X_{ll}$, $X_{ul}$) |
+
+| Hospital Sites | Percentage (%) | Sensitivity     | PPV              |
+| -------------- | -------------- | --------------- | ---------------- |
+| A              | 19.64          | 83.6 ($X_{ll}$, $X_{ul}$) | 54.3% ($X_{ll}$, $X_{ul}$) |
+| B              | 21.36          | 85.1 ($X_{ll}$, $X_{ul}$) | 51.4% ($X_{ll}$, $X_{ul}$) |
+| C              | 20.1           | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
+| D              | 18.4           | 85.4 ($X_{ll}$, $X_{ul}$) | 57.9% ($X_{ll}$, $X_{ul}$) |
+| E              | 21.5           | 84.7 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
+
+**Model Card:**\
+**Device Information**
+* Model Name: Disease X Screening Model
+* Model version: version 1.0.1
+* Model release date: December 2023
+* Model architecture: Convolutional Neural Network
+
+**Device Description**
+* Intended User: Healthcare professionals.
+* Indications for Use: The model is software intended to aid in screening for Disease X on patients above the age of 22 by analyzing recordings of 12-lead ECG made on compatible ECG devices. It is not intended to be a stand-alone diagnostic device for Disease X. However, a positive result may suggest the need for further clinical evaluation in order to establish a diagnosis of Disease X. If the patient is at high risk for Disease X, a negative result should not rule out further non-invasive evaluation. It should not be used to replace the current standard of care methods for diagnosis of Disease X but applied jointly with clinician judgment.
+* Clinical workflow phases: To be used as an aid and screening tool for further clinical follow-up (e.g., echocardiogram) in order to establish a diagnosis of Disease X.
+* Clinical Benefit: To provide point-of-care screening of Disease X where cardiac imaging may not be available.
+
+**Performance and Limitations**
+* Data type: 12-lead electrocardiogram (ECG)
+  * Description: 10 second duration of a 12-lead electrocardiogram (ECG) obtained from the following four compatible ECG devices (A, B, C, and D). The compatible ECG devices have a sampling rate of 500 Hz.
+* Clinical Reference Standard: An echocardiogram obtained within 30 days of the ECG to establish clinical reference standard.
+* Model Validation:
+  * Data size and type: A retrospective study of 25,000 patients and their patient records across 5 different and diverse health systems across the United States. Each of the 5 sites contributed 5,000 patient-ECG pairs to a final pool of 25,000 patient-ECG pairs.
+  * Exclusion Criteria:
+    * The patients enrolled in the study were less than 22 years old.
+    * Mandatory data were missing (i.e., technical parameters of ECG, age or race demographic, information regarding the conducted ECG and echocardiogram).
+    * ECG data contained either corrupt or missing lead(s).
+    * Different models of 12-lead ECGs were used to collect the ECG data.
+    * The 12-lead ECG duration is not 10 seconds long.
+    * The patient has a pacemaker.
+  * Data Results (calculated from test datasets):
+    * Sensitivity: 84% (82.9%, 85%)
+    * Specificity: 83% (82.5%, 83.5%)
+    * PPV: 55.3% (54.1%, 56.4%)
+    * NPV: 95.4% (95.1%, 95.7%)
+* Non-Clinical Testing:
+  * Human Factors and Usability testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Applying Human Factors and Usability Engineering to Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices).”
+  * Cybersecurity testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions).”
+  * Software verification and validation testing was conducted and documentation was provided as recommended in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
+
+**Risk Management**\
+Risk management was conducted, and documentation was provided as recommend in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions) and in accordance with ANSI/AAMI/ISO 14971 Medical devices - Applications of risk management to medical devices.
+* Potential risks associated with the model, the data, and the outputs (e.g., contraindications, side effects, data privacy risks, cybersecurity risks, bias risks, information gaps): The potential risks associated with the model include incorrect follow-up due to a false positive or false negative output, which can occur because of (1) model bias or (2) using the model in an unsupported patient population or with unsupported input/hardware. Furthermore, information gaps may lead to overreliance on the device output for follow-up. Controls for identified risks include clinical validation testing, software verification and validation testing, human factors testing and labeling.
+* Description of information that could impact risks and patient outcomes, across the product lifecycle: Model development and clinical validation included only 10% of participants under the age of 40, which may mean that the model’s performance on that subgroup is not fully characterized.
+* Interactions, Deployment, and Updates: A comprehensive Device Performance Monitoring Plan is in place that is consistent with the Quality System Regulation (21 CFR Part 820) which continuously monitors the deployed model to evaluate site-specific performance, identify vulnerabilities, and ensure transparency of performance and ongoing maintenance to sites and end users.
+  * Computational resources required.
+  * Details regarding how the model is deployed and updated:
+    * How to conduct local site-specific acceptance testing or validation: Prior to use of the model in the site’s entire population, the model is deployed, and data is collected for a one-month period in order to understand any issues with integration into the sites’ existing systems and measure performance on a subset of the patient population for that site. Through this process, issues with deployment can be addressed prior to exposure to the entire population and can help characterize performance of the model and the need for additional training and development. Alternatively, sites may opt to provide historical data that can be used to assess expected performance at the site.
+    * Ongoing performance monitoring: Automated performance calculation is deployed along with the model and calculated every 6 months; if the performance is out of the expected range, an automated e-mail will be sent to the site administrator and sponsor. This will initiate a process for understanding performance issues and a mitigation plan will be put in place to address this.
+    * Transparent reporting of successes and failures: All sites will have access to anonymized reports that will include successes and failures of deployed models at various sites, along with site characteristics to contextualize these successes and failures.
+    * Change management strategies: Change management will be implemented consistent with established Quality System procedures if and when issues arise that require a change or if features are requested by sites and users.
+    * Proactive approaches to address vulnerabilities: Sites and users are encouraged to report any issues within 48 hours of the issue occurring, which will then follow complaint handling procedures and for which a fix will be issued according to these procedures.
+  * Communication to parties of as-needed information: Automated e-mails will be generated by the device when performance is out of the expected range, as described above.
+  * Software quality (specify, standards and regulatory compliance issues, intellectual property issues, risk management and safeguards used, other).
+
+**Development**
+* Model Training:
+  * Data size: 30,000 patients that received an ECG and echocardiogram performed within 30 days apart from one another. Dataset collected from clinical databases from 2 diverse hospital networks (Hospital A and Hospital B).
+  * Patients with Disease X were 20% of the overall cohort while patients without Disease X (control group) consisted of 80% of the overall cohort. Both groups were split into training (50%), tuning (20%) and tuning evaluation (30%) datasets.
+  * Data Results (calculated from tuning evaluation datasets):
+    * Sensitivity: 87% (83%, 89%)
+    * Specificity: 83% (81%, 85%)
+
+**Conclusion**\
+While there are differences noted in the technological characteristics of the proposed system and the predicate device, the differences do not raise different questions of safety or effectiveness. Based on the information provided in this submission, the subject device demonstrates that it is substantially equivalent to the predicate device through the results of clinical performance and results of non-clinical verification and validation.
+
+# 부록 F: 모델 카드가 포함된 510(k) 요약 예시
+일반적으로 공개적으로 이용 가능한 요약은 특정 시판 허가 제출(예: 510(k)[^71], De Novo[^72], PMA[^73])에 대한 해당 요구사항을 따라야 합니다. 아래 항목은 제조업체가 다룰 것으로 예상될 수 있는 주제의 완전한 목록이 아니며, 모든 주제가 모든 시판 허가 제출에 적용되지 않을 수 있습니다. 마찬가지로, FDA는 이 요약에 추가 정보를 포함할 것을 요청할 수 있습니다. 이 부록은 작성된 기본 모델 카드의 예시를 포함하여 제조업체가 일반적으로 510(k) 요약에 제공해야 하는 정보 유형의 예시로만 제공됩니다. 정보는 모델 카드와 공개 요약의 다른 섹션 간에 반복될 필요가 없지만, 유용한 맥락을 제공하는 경우 중복이 허용됩니다.
+
+**사용 적응증:**\
+*Disease X 선별 모델(Disease X Screening Model)*은 호환 가능한 ECG 기기로부터 얻은 12유도 심전도(ECG) 기록을 분석하여 22세 이상 환자의 Disease X 선별을 보조하기 위한 소프트웨어입니다. 이는 Disease X에 대한 독립형 진단 기기로 의도되지 않았습니다. 그러나 양성 결과는 Disease X 진단을 확립하기 위해 추가 임상 평가가 필요함을 시사할 수 있습니다. 환자가 Disease X의 고위험군인 경우, 음성 결과가 추가 비침습적 평가를 배제해서는 안 됩니다. 이는 Disease X 진단을 위한 현재의 표준 진료 방법을 대체하는 데 사용되어서는 안 되며 임상의의 판단과 함께 적용되어야 합니다.
+
+**기기 설명:**\
+독립형 소프트웨어는 합성곱 신경망(CNN)을 사용하는 머신러닝 모델을 포함하고 있으며, 4개의 호환 가능한 ECG 기기(A, B, C, D)로부터 획득한 12유도 안정 시 심전도의 10초를 해석 및 분석하여 환자가 Disease X를 가지고 있으며 추가 임상 평가가 필요할 가능성에 대한 출력을 제공합니다. 소프트웨어에는 또한 제공된 ECG 데이터가 모델 출력을 생성하는 데 필요한 입력 요구사항을 충족하는지 여부를 최종 사용자에게 알리는 품질 검사가 포함되어 있습니다. 데이터가 이러한 요구사항을 충족하지 않으면 오류 메시지가 표시됩니다.
+
+| **기술적 특성 요약** | **대상 기기** | **비교 대상 기기** | **비교** |                                   
+| --- | --- | --- | --- |
+| **신청 번호** | KXXXXXX  | KXXXXXX | -   |
+| **제품 코드**  | XXX   | XXX | -  |
+| **규정 번호** | 21 CFR XXXX  | 21 CFR XXXX | -  |
+| **Rx/OTC**  | Rx | Rx  | 동일 |
+| **사용 적응증** | Disease X 선별 모델은 호환 가능한 ECG 기기로부터 기록된 12유도 심전도를 분석하여 22세 이상 환자의 Disease X 선별을 보조하기 위한 소프트웨어입니다. 이는 Disease X에 대한 독립형 진단 기기로 의도되지 않았습니다. 그러나 양성 결과는 Disease X 진단을 확립하기 위해 추가 임상 평가가 필요함을 시사할 수 있습니다. 환자가 Disease X의 고위험군인 경우, 음성 결과가 추가 평가를 배제해서는 안 됩니다. 이는 Disease X 진단을 위한 현재의 표준 진료 방법을 대체하는 데 사용되어서는 안 되며 임상의의 판단과 함께 적용되어야 합니다. | 18세 이상 환자에서 환자가 Disease X를 가지고 있는지 판단하는 보조 도구로 사용되도록 의도된 소프트웨어입니다. 소프트웨어는 호환 가능한 기기로부터 12유도 ECG를 분석하며 독립형 진단 기기로 사용되어서는 안 됩니다. | 유사. 두 기기 모두 Disease X에 대한 보조 도구 및 선별 도구로 사용됩니다. 비교 대상 기기의 사용 적응증은 18세 이상 환자를 대상으로 하는 반면, 대상 기기는 22세 이상을 대상으로 합니다. |
+| **작동 모드**  | 스팟 체크 / 진단 기기로 사용되지 않음 | 스팟 체크 / 진단 기기로 사용되지 않음  | 동일  |
+| **하드웨어 입력**  | 다음의 호환 가능한 기기로부터의 12유도 ECG: A, B, C, D  | 다음의 호환 가능한 기기로부터의 12유도 ECG: A, B  | 유사. 두 기기 모두 12유도 ECG로부터의 입력이 필요하지만, 대상 기기는 더 많은 호환 가능한 ECG 입력 기기를 허용합니다. |
+| **출력**  | 소프트웨어는 다음 출력을 제공합니다:<br>1. Disease X 존재. Disease X 진단을 확립하기 위해 추가 임상 평가를 요청하십시오.<br>2. Disease X 존재 가능성이 낮음. 그러나 임상적 판단을 사용하고 추가 평가가 필요한지 판단하십시오.<br>3. 오류 메시지: 12유도 ECG가 설정된 품질 검사를 통과하지 못했습니다. | 소프트웨어는 Disease X의 가능성과 추가 평가가 필요한지에 대한 출력을 제공합니다. | 유사. 두 기기 모두 Disease X의 존재 여부와 추가 평가가 필요한지를 식별합니다. 두 기기 모두 독립형으로 사용되어서는 안 되며 임상적 판단이 추가 평가를 안내해야 함을 나타냅니다. |
+| **모델 훈련을 위한 참조 표준** | 심초음파  | 심초음파  | 동일  |
+| **성능** | 민감도: 87% (83%, 89%)<br>특이도: 83% (81%, 85%)<br>양성 예측값(PPV): 56%  | 민감도: 82% (78%, 85%)<br>특이도: 81% (79%, 84%)<br>양성 예측값(PPV): 53%  | 유사. 대상 기기는 민감도, 특이도 및 PPV에서 비교 대상 기기보다 약간 더 나은 성능을 보입니다. |
+
+**모델 훈련 설명:**\
+모델은 테스트 데이터셋과 독립적인 데이터셋으로부터 훈련되었습니다. 모델은 서로 30일 이내에 수행된 ECG와 심초음파를 받은 30,000명의 환자로 훈련되었습니다. 심초음파는 환자의 임상 참조 표준(참조 표준)을 확립하는 데 사용되었습니다. 데이터셋은 2개의 다양한 병원 네트워크(병원 A와 병원 B)의 임상 데이터베이스에서 수집되었습니다. Disease X는 심초음파 영상을 기반으로 좌심실 벽 두께가 >= 15 mm인 환자로 정의되었습니다.
+훈련 데이터셋에는 질병 집단을 대표하는 다음과 같은 인구통계학적 분류가 포함되었습니다:
+
+| 인종                                | 백분율 (%) |
+| ----------------------------------- | -------------- |
+| 백인                               | 75.5           |
+| 흑인 또는 아프리카계 미국인           | 13.6           |
+| 아메리카 원주민 또는 알래스카 원주민    | 1.3            |
+| 아시아인                               | 6.3            |
+| 하와이 원주민 또는 태평양 섬 주민 | 0.3            |
+| 둘 이상의 인종                   | 3.0            |
+
+샘플은 남성 참여자 49.5%와 여성 참여자 50.5%로 구성되었습니다. 평균 연령은 62세였으며 다음과 같은 연령 분포를 보였습니다:
+
+| 연령 (세)                | 백분율 (%) |
+| -------------------------- | -------------- |
+| 40세 미만        | 10             |
+| 40-49                      | 10             |
+| 50-59                      | 25             |
+| 60-69                      | 30             |
+| 70-79                      | 15             |
+| 79세 초과 | 10             |
+
+Disease X를 가진 환자는 전체 코호트의 20%였으며 Disease X가 없는 환자(대조군)는 전체 코호트의 80%를 구성했습니다. 두 그룹 모두 훈련(50%), 튜닝(20%) 및 튜닝 평가(30%) 데이터셋으로 분할되었습니다. 모델의 민감도와 특이도는 튜닝 평가 데이터셋으로부터 계산되었습니다. 모델은 다음을 달성할 수 있었습니다:
+* 민감도: 87% (83%, 89%)
+* 특이도: 83% (81%, 85%)
+* 양성 예측값(PPV): 56%
+
+**비임상 성능 데이터 요약**\
+모델은 FD&C Act의 해당 요구사항 및 시행 규정을 고려하여 평가되었습니다. 여기에는 다음 테스트가 포함되었습니다:
+* 인적 요인 및 사용성 테스트가 수행되었으며 FDA의 지침 문서 "의료기기에 인적 요인 및 사용성 공학 적용(Applying Human Factors and Usability Engineering to Medical Devices)"에서 권장하는 대로 문서가 제공되었습니다.
+* 사이버보안 테스트가 수행되었으며 FDA의 지침 문서 "의료기기의 사이버보안: 품질 시스템 고려사항 및 시판 전 제출 내용(Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions)"에서 권장하는 대로 문서가 제공되었습니다.
+* 소프트웨어 검증 및 확인 테스트가 수행되었으며 시판 전 소프트웨어 지침(Premarket Software Guidance)에서 권장하는 대로 문서가 제공되었습니다.
+
 **임상 검증 요약:**\
 **연구 설계**\
 모델은 미국 전역의 5개 서로 다른 다양한 의료 시스템에서 25,000명의 환자와 그들의 환자 기록에 대한 후향적 연구에서 검증되었습니다. 연구의 목적은 Disease X 존재 여부 선별에 대한 모델의 성능을 확립하는 것이었습니다. 모델의 포함 기준은 다음과 같았습니다:
@@ -1900,50 +2017,10 @@ The model achieved a sensitivity of 84%, a specificity of 83%, a PPV of 55%, and
 | 합계         | 5000     | 20000    | 25000 | 1 (1, 1)         | 유병률 20% (19.5%, 20.5%) |
 | 성능 | 민감도 = 84% (82.9%, 85%)| 특이도 = 83% (82.5%, 83.5%)|       |                  |                               |
 
-**Plain Language Interpretation for Benefit-Risk Consideration:**\
-Assume the prevalence of Disease X in the intended use population of the device is 20%. Among 1000 patients from the target population, about 168 (1000 × Prevalence × Sensitivity) patients will be correctly classified as having the Disease X (i.e., 168 device true positives out of 200 total reference positive patients), while about 136 (1000 × (1 - Prevalence) × (1 - Specificity)) patients will be wrongly classified as having the Disease X (i.e., 136 device false positives out of 800 total reference negative patients). Thus, each true positive patient comes at the cost of 0.8 (136/168) false positive patients (compares to Y from the standard of care, or 4 (800/200) from a worst-case scenario where every patient is called positive). Furthermore, to identify one extra true positive patient, we need to assess about two patients (considering potential device positive/negative outcomes) since NNP (Number Needed to Predict) = 1 / (PPV + NPV - 1) = 1.97 (compares to the standard of care with NNP of Z, or a perfect device with a NNP of one).
-
 **편익-위험 고려를 위한 평이한 언어 해석:**\
 기기의 의도된 사용 집단에서 Disease X의 유병률이 20%라고 가정합니다. 대상 집단의 1,000명의 환자 중 약 168명(1000 × 유병률 × 민감도)의 환자가 Disease X를 가진 것으로 올바르게 분류될 것입니다(즉, 총 200명의 참조 표준 양성 환자 중 168명의 기기 진양성). 반면 약 136명(1000 × (1 - 유병률) × (1 - 특이도))의 환자가 Disease X를 가진 것으로 잘못 분류될 것입니다(즉, 총 800명의 참조 표준 음성 환자 중 136명의 기기 위양성). 따라서 각 진양성 환자는 0.8명(136/168)의 위양성 환자를 비용으로 수반합니다(표준 진료의 Y와 비교하거나, 모든 환자를 양성으로 판정하는 최악의 시나리오의 4(800/200)와 비교). 또한, 하나의 추가 진양성 환자를 식별하기 위해서는 NNP(예측 필요 수) = 1 / (PPV + NPV - 1) = 1.97이므로 약 2명의 환자를 평가해야 합니다(잠재적 기기 양성/음성 결과를 고려할 때) (NNP가 Z인 표준 진료 또는 NNP가 1인 완벽한 기기와 비교).
 
-// 여기에 그림 삽입
-
-The subgroup analysis for each demographic can be found below. 
-
-*Please note that while confidence intervals could not be generated for this fictitious example, sponsors should include confidence intervals on all reported results. Placeholders have been included in each cell to represent the confidence interval: ($X_{ll}$, $X_{ul}$), where “$ll$” stands for lower limit and “$ul$” stands for upper limit.*
-
-| Race                                             | Percentage (%) | Sensitivity     | PPV              |
-| ------------------------------------------------ | -------------- | --------------- | ---------------- |
-| White                                            | 75.5           | 85.3 ($X_{ll}$, $X_{ul}$) | 57.3% ($X_{ll}$, $X_{ul}$) |
-| Black or African American                        | 13.6           | 82.9 ($X_{ll}$, $X_{ul}$) | 54.4% ($X_{ll}$, $X_{ul}$) |
-| American Indian and Alaska Native                | 1.3            | 81.6 ($X_{ll}$, $X_{ul}$) | 54.8% ($X_{ll}$, $X_{ul}$) |
-| Asian                                            | 6.3            | 83.9 ($X_{ll}$, $X_{ul}$) | 56.1% ($X_{ll}$, $X_{ul}$) |
-| Native Hawaiian and Other Pacific Islander alone | 0.3            | 83.6 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
-| Two or More Races                                | 3              | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
-
-| Age                        | Percentage (%) | Sensitivity     | PPV              |
-| -------------------------- | -------------- | --------------- | ---------------- |
-| Under the age of 40        | 10             | 84.9 ($X_{ll}$, $X_{ul}$) | 55% ($X_{ll}$, $X_{ul}$)   |
-| 40-49                      | 10             | 85.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
-| 50-59                      | 16             | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
-| 60-69                      | 23             | 84.5 ($X_{ll}$, $X_{ul}$) | 56% ($X_{ll}$, $X_{ul}$)   |
-| 70-79                      | 22             | 83.6 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
-| Greater than the age of 79 | 19             | 82.1 ($X_{ll}$, $X_{ul}$) | 52.7% ($X_{ll}$, $X_{ul}$) |
-
-| ECG Acquisition Device | Percentage (%) | Sensitivity     | PPV              |
-| ---------------------- | -------------- | --------------- | ---------------- |
-| A                      | 26.6           | 84.7 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
-| B                      | 25.1           | 83.6 ($X_{ll}$, $X_{ul}$) | 54.3% ($X_{ll}$, $X_{ul}$) |
-| C                      | 24.9           | 85.4 ($X_{ll}$, $X_{ul}$) | 57.9% ($X_{ll}$, $X_{ul}$) |
-| D                      | 23.3           | 84.6 ($X_{ll}$, $X_{ul}$) | 55.1% ($X_{ll}$, $X_{ul}$) |
-
-| Hospital Sites | Percentage (%) | Sensitivity     | PPV              |
-| -------------- | -------------- | --------------- | ---------------- |
-| A              | 19.64          | 83.6 ($X_{ll}$, $X_{ul}$) | 54.3% ($X_{ll}$, $X_{ul}$) |
-| B              | 21.36          | 85.1 ($X_{ll}$, $X_{ul}$) | 51.4% ($X_{ll}$, $X_{ul}$) |
-| C              | 20.1           | 84.1 ($X_{ll}$, $X_{ul}$) | 55.4% ($X_{ll}$, $X_{ul}$) |
-| D              | 18.4           | 85.4 ($X_{ll}$, $X_{ul}$) | 57.9% ($X_{ll}$, $X_{ul}$) |
-| E              | 21.5           | 84.7 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
+(그림 삽입)
 
 각 인구통계학적 특성에 대한 하위 집단 분석은 아래에서 찾을 수 있습니다.
 
@@ -1982,68 +2059,6 @@ The subgroup analysis for each demographic can be found below.
 | D              | 18.4           | 85.4 ($X_{ll}$, $X_{ul}$) | 57.9% ($X_{ll}$, $X_{ul}$) |
 | E              | 21.5           | 84.7 ($X_{ll}$, $X_{ul}$) | 56.5% ($X_{ll}$, $X_{ul}$) |
 
-
-**Model Card:**\
-**Device Information**
-* Model Name: Disease X Screening Model
-* Model version: version 1.0.1
-* Model release date: December 2023
-* Model architecture: Convolutional Neural Network
-
-**Device Description**
-* Intended User: Healthcare professionals.
-* Indications for Use: The model is software intended to aid in screening for Disease X on patients above the age of 22 by analyzing recordings of 12-lead ECG made on compatible ECG devices. It is not intended to be a stand-alone diagnostic device for Disease X. However, a positive result may suggest the need for further clinical evaluation in order to establish a diagnosis of Disease X. If the patient is at high risk for Disease X, a negative result should not rule out further non-invasive evaluation. It should not be used to replace the current standard of care methods for diagnosis of Disease X but applied jointly with clinician judgment.
-* Clinical workflow phases: To be used as an aid and screening tool for further clinical follow-up (e.g., echocardiogram) in order to establish a diagnosis of Disease X.
-* Clinical Benefit: To provide point-of-care screening of Disease X where cardiac imaging may not be available.
-
-**Performance and Limitations**
-* Data type: 12-lead electrocardiogram (ECG)
-  * Description: 10 second duration of a 12-lead electrocardiogram (ECG) obtained from the following four compatible ECG devices (A, B, C, and D). The compatible ECG devices have a sampling rate of 500 Hz.
-* Clinical Reference Standard: An echocardiogram obtained within 30 days of the ECG to establish clinical reference standard.
-* Model Validation:
-  * Data size and type: A retrospective study of 25,000 patients and their patient records across 5 different and diverse health systems across the United States. Each of the 5 sites contributed 5,000 patient-ECG pairs to a final pool of 25,000 patient-ECG pairs.
-  * Exclusion Criteria:
-    * The patients enrolled in the study were less than 22 years old.
-    * Mandatory data were missing (i.e., technical parameters of ECG, age or race demographic, information regarding the conducted ECG and echocardiogram).
-    * ECG data contained either corrupt or missing lead(s).
-    * Different models of 12-lead ECGs were used to collect the ECG data.
-    * The 12-lead ECG duration is not 10 seconds long.
-    * The patient has a pacemaker.
-  * Data Results (calculated from test datasets):
-    * Sensitivity: 84% (82.9%, 85%)
-    * Specificity: 83% (82.5%, 83.5%)
-    * PPV: 55.3% (54.1%, 56.4%)
-    * NPV: 95.4% (95.1%, 95.7%)
-* Non-Clinical Testing:
-  * Human Factors and Usability testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Applying Human Factors and Usability Engineering to Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices).”
-  * Cybersecurity testing was conducted and documentation was provided as recommended in FDA’s guidance document “[Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions).”
-  * Software verification and validation testing was conducted and documentation was provided as recommended in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions).
-
-**Risk Management**\
-Risk management was conducted, and documentation was provided as recommend in the [Premarket Software Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-device-software-functions) and in accordance with ANSI/AAMI/ISO 14971 Medical devices - Applications of risk management to medical devices.
-* Potential risks associated with the model, the data, and the outputs (e.g., contraindications, side effects, data privacy risks, cybersecurity risks, bias risks, information gaps): The potential risks associated with the model include incorrect follow-up due to a false positive or false negative output, which can occur because of (1) model bias or (2) using the model in an unsupported patient population or with unsupported input/hardware. Furthermore, information gaps may lead to overreliance on the device output for follow-up. Controls for identified risks include clinical validation testing, software verification and validation testing, human factors testing and labeling.
-* Description of information that could impact risks and patient outcomes, across the product lifecycle: Model development and clinical validation included only 10% of participants under the age of 40, which may mean that the model’s performance on that subgroup is not fully characterized.
-* Interactions, Deployment, and Updates: A comprehensive Device Performance Monitoring Plan is in place that is consistent with the Quality System Regulation (21 CFR Part 820) which continuously monitors the deployed model to evaluate site-specific performance, identify vulnerabilities, and ensure transparency of performance and ongoing maintenance to sites and end users.
-  * Computational resources required.
-  * Details regarding how the model is deployed and updated:
-    * How to conduct local site-specific acceptance testing or validation: Prior to use of the model in the site’s entire population, the model is deployed, and data is collected for a one-month period in order to understand any issues with integration into the sites’ existing systems and measure performance on a subset of the patient population for that site. Through this process, issues with deployment can be addressed prior to exposure to the entire population and can help characterize performance of the model and the need for additional training and development. Alternatively, sites may opt to provide historical data that can be used to assess expected performance at the site.
-    * Ongoing performance monitoring: Automated performance calculation is deployed along with the model and calculated every 6 months; if the performance is out of the expected range, an automated e-mail will be sent to the site administrator and sponsor. This will initiate a process for understanding performance issues and a mitigation plan will be put in place to address this.
-    * Transparent reporting of successes and failures: All sites will have access to anonymized reports that will include successes and failures of deployed models at various sites, along with site characteristics to contextualize these successes and failures.
-    * Change management strategies: Change management will be implemented consistent with established Quality System procedures if and when issues arise that require a change or if features are requested by sites and users.
-    * Proactive approaches to address vulnerabilities: Sites and users are encouraged to report any issues within 48 hours of the issue occurring, which will then follow complaint handling procedures and for which a fix will be issued according to these procedures.
-  * Communication to parties of as-needed information: Automated e-mails will be generated by the device when performance is out of the expected range, as described above.
-  * Software quality (specify, standards and regulatory compliance issues, intellectual property issues, risk management and safeguards used, other).
-
-**Development**
-* Model Training:
-  * Data size: 30,000 patients that received an ECG and echocardiogram performed within 30 days apart from one another. Dataset collected from clinical databases from 2 diverse hospital networks (Hospital A and Hospital B).
-  * Patients with Disease X were 20% of the overall cohort while patients without Disease X (control group) consisted of 80% of the overall cohort. Both groups were split into training (50%), tuning (20%) and tuning evaluation (30%) datasets.
-  * Data Results (calculated from tuning evaluation datasets):
-    * Sensitivity: 87% (83%, 89%)
-    * Specificity: 83% (81%, 85%)
-
-**Conclusion**\
-While there are differences noted in the technological characteristics of the proposed system and the predicate device, the differences do not raise different questions of safety or effectiveness. Based on the information provided in this submission, the subject device demonstrates that it is substantially equivalent to the predicate device through the results of clinical performance and results of non-clinical verification and validation.
 
 **모델 카드:**\
 **기기 정보**
