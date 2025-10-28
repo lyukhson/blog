@@ -17,7 +17,9 @@ toc_label: "Table of Contents"
 Document issued on August 18, 2025.
 Document originally issued on December 4, 2024.
 
-번역
+인공지능 기반 장치 소프트웨어 기능을 위한 사전 결정된 변경 관리 계획에 대한 마케팅 제출 
+
+최초 발행일: 2024년 12월 4일 / 문서 발행일: 2025년 8월 18일
 
 # I. Introduction
 
